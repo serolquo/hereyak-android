@@ -1,0 +1,2802 @@
+android.UnusedStub
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoIcsImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoStubImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoVersionImpl
+android.support.v4.accessibilityservice.AccessibilityServiceInfoCompatIcs
+android.support.v4.app.ActivityCompat
+android.support.v4.app.ActivityCompatHoneycomb:
+    27:27:ActivityCompatHoneycomb()
+    34:35:static void dump(android.app.Activity,java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+android.support.v4.app.BackStackRecord:
+    static final java.lang.String TAG
+    static final int OP_NULL
+    static final int OP_ADD
+    static final int OP_REPLACE
+    static final int OP_REMOVE
+    static final int OP_HIDE
+    static final int OP_SHOW
+    static final int OP_DETACH
+    static final int OP_ATTACH
+    338:338:public int getId()
+    342:342:public int getBreadCrumbTitleRes()
+    346:346:public int getBreadCrumbShortTitleRes()
+    350:353:public java.lang.CharSequence getBreadCrumbTitle()
+    357:360:public java.lang.CharSequence getBreadCrumbShortTitle()
+    379:380:public android.support.v4.app.FragmentTransaction add(android.support.v4.app.Fragment,java.lang.String)
+    384:385:public android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)
+    421:421:public android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment)
+    425:430:public android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment,java.lang.String)
+    434:439:public android.support.v4.app.FragmentTransaction remove(android.support.v4.app.Fragment)
+    443:448:public android.support.v4.app.FragmentTransaction hide(android.support.v4.app.Fragment)
+    452:457:public android.support.v4.app.FragmentTransaction show(android.support.v4.app.Fragment)
+    479:479:public android.support.v4.app.FragmentTransaction setCustomAnimations(int,int)
+    484:488:public android.support.v4.app.FragmentTransaction setCustomAnimations(int,int,int,int)
+    492:493:public android.support.v4.app.FragmentTransaction setTransition(int)
+    497:498:public android.support.v4.app.FragmentTransaction setTransitionStyle(int)
+    502:508:public android.support.v4.app.FragmentTransaction addToBackStack(java.lang.String)
+    512:512:public boolean isAddToBackStackAllowed()
+    516:521:public android.support.v4.app.FragmentTransaction disallowAddToBackStack()
+    525:527:public android.support.v4.app.FragmentTransaction setBreadCrumbTitle(int)
+    531:533:public android.support.v4.app.FragmentTransaction setBreadCrumbTitle(java.lang.CharSequence)
+    537:539:public android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(int)
+    543:545:public android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(java.lang.CharSequence)
+    578:578:public int commitAllowingStateLoss()
+    779:779:public int getTransition()
+    783:783:public int getTransitionStyle()
+    787:787:public boolean isEmpty()
+android.support.v4.app.DialogFragment
+android.support.v4.app.Fragment:
+    static final int INITIALIZING
+    static final int CREATED
+    static final int ACTIVITY_CREATED
+    static final int STOPPED
+    static final int STARTED
+    static final int RESUMED
+    481:481:public final int getId()
+    488:488:public final java.lang.String getTag()
+    499:503:public void setArguments(android.os.Bundle)
+    522:527:public void setInitialSavedState(android.support.v4.app.Fragment$SavedState)
+    541:543:public void setTargetFragment(android.support.v4.app.Fragment,int)
+    549:549:public final android.support.v4.app.Fragment getTargetFragment()
+    556:556:public final int getTargetRequestCode()
+    583:583:public final java.lang.CharSequence getText(int)
+    593:593:public final java.lang.String getString(int)
+    606:606:public final varargs java.lang.String getString(int,java.lang.Object[])
+    620:620:public final android.support.v4.app.FragmentManager getFragmentManager()
+    628:640:public final android.support.v4.app.FragmentManager getChildFragmentManager()
+    648:648:public final android.support.v4.app.Fragment getParentFragment()
+    655:655:public final boolean isAdded()
+    673:673:public final boolean isRemoving()
+    684:684:public final boolean isInLayout()
+    692:692:public final boolean isResumed()
+    701:701:public final boolean isVisible()
+    713:713:public final boolean isHidden()
+    741:746:public void setRetainInstance(boolean)
+    749:749:public final boolean getRetainInstance()
+    760:766:public void setHasOptionsMenu(boolean)
+    778:784:public void setMenuVisibility(boolean)
+    800:805:public void setUserVisibleHint(boolean)
+    812:812:public boolean getUserVisibleHint()
+    819:827:public android.support.v4.app.LoaderManager getLoaderManager()
+    835:839:public void startActivity(android.content.Intent)
+    846:850:public void startActivityForResult(android.content.Intent,int)
+    1001:1001:public android.view.View getView()
+    1288:1289:public void registerForContextMenu(android.view.View)
+    1299:1300:public void unregisterForContextMenu(android.view.View)
+    1410:1416:android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+android.support.v4.app.Fragment$SavedState:
+    301:303:Fragment$SavedState(android.os.Bundle)
+android.support.v4.app.FragmentActivity:
+    private static final java.lang.String TAG
+    static final java.lang.String FRAGMENTS_TAG
+    private static final int HONEYCOMB
+    static final int MSG_REALLY_STOPPED
+    static final int MSG_RESUME_PENDING
+    612:614:public java.lang.Object getLastCustomNonConfigurationInstance()
+    825:833:public void startActivityFromFragment(android.support.v4.app.Fragment,android.content.Intent,int)
+    854:859:public android.support.v4.app.LoaderManager getSupportLoaderManager()
+android.support.v4.app.FragmentActivity$FragmentTag:
+    public static final int Fragment_id
+    public static final int Fragment_name
+    public static final int Fragment_tag
+    129:129:FragmentActivity$FragmentTag()
+android.support.v4.app.FragmentManager:
+    public static final int POP_BACK_STACK_INCLUSIVE
+    139:139:public android.support.v4.app.FragmentTransaction openTransaction()
+    public abstract void popBackStack()
+    public abstract boolean popBackStackImmediate()
+    public abstract void popBackStack(java.lang.String,int)
+    public abstract boolean popBackStackImmediate(java.lang.String,int)
+    public abstract void popBackStack(int,int)
+    public abstract boolean popBackStackImmediate(int,int)
+    public abstract int getBackStackEntryCount()
+    public abstract android.support.v4.app.FragmentManager$BackStackEntry getBackStackEntryAt(int)
+    public abstract void addOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    public abstract void removeOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    public abstract void putFragment(android.os.Bundle,java.lang.String,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.Fragment getFragment(android.os.Bundle,java.lang.String)
+    public abstract android.support.v4.app.Fragment$SavedState saveFragmentInstanceState(android.support.v4.app.Fragment)
+    public abstract void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+    334:335:public static void enableDebugLogging(boolean)
+android.support.v4.app.FragmentManager$BackStackEntry
+android.support.v4.app.FragmentManagerImpl:
+    static final java.lang.String TAG
+    static final java.lang.String TARGET_REQUEST_CODE_STATE_TAG
+    static final java.lang.String TARGET_STATE_TAG
+    static final java.lang.String VIEW_STATE_TAG
+    static final java.lang.String USER_VISIBLE_HINT_TAG
+    static final int ANIM_DUR
+    public static final int ANIM_STYLE_OPEN_ENTER
+    public static final int ANIM_STYLE_OPEN_EXIT
+    public static final int ANIM_STYLE_CLOSE_ENTER
+    public static final int ANIM_STYLE_CLOSE_EXIT
+    public static final int ANIM_STYLE_FADE_ENTER
+    public static final int ANIM_STYLE_FADE_EXIT
+    466:471:public void popBackStack()
+    482:487:public void popBackStack(java.lang.String,int)
+    491:493:public boolean popBackStackImmediate(java.lang.String,int)
+    498:506:public void popBackStack(int,int)
+    510:515:public boolean popBackStackImmediate(int,int)
+    520:520:public int getBackStackEntryCount()
+    525:525:public android.support.v4.app.FragmentManager$BackStackEntry getBackStackEntryAt(int)
+    530:534:public void addOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    538:541:public void removeOnBackStackChangedListener(android.support.v4.app.FragmentManager$OnBackStackChangedListener)
+    572:580:public android.support.v4.app.Fragment$SavedState saveFragmentInstanceState(android.support.v4.app.Fragment)
+    1314:1322:public android.support.v4.app.Fragment findFragmentByWho(java.lang.String)
+android.support.v4.app.FragmentManagerImpl$2
+android.support.v4.app.FragmentManagerImpl$3
+android.support.v4.app.FragmentManagerImpl$4
+android.support.v4.app.FragmentPagerAdapter
+android.support.v4.app.FragmentStatePagerAdapter
+android.support.v4.app.FragmentTabHost:
+    private android.widget.FrameLayout mRealTabContent
+    130:132:public FragmentTabHost(android.content.Context)
+    135:137:public FragmentTabHost(android.content.Context,android.util.AttributeSet)
+    140:172:private void initFragmentTabHost(android.content.Context,android.util.AttributeSet)
+    186:190:public void setup(android.content.Context,android.support.v4.app.FragmentManager)
+    193:205:public void setup(android.content.Context,android.support.v4.app.FragmentManager,int)
+    208:215:private void ensureContent()
+    223:242:public void addTab(android.widget.TabHost$TabSpec,java.lang.Class,android.os.Bundle)
+android.support.v4.app.FragmentTabHost$DummyTabFactory
+android.support.v4.app.FragmentTabHost$TabInfo:
+    67:71:FragmentTabHost$TabInfo(java.lang.String,java.lang.Class,android.os.Bundle)
+android.support.v4.app.FragmentTransaction:
+    public static final int TRANSIT_ENTER_MASK
+    public static final int TRANSIT_EXIT_MASK
+    public static final int TRANSIT_UNSET
+    public static final int TRANSIT_NONE
+    public static final int TRANSIT_FRAGMENT_OPEN
+    public static final int TRANSIT_FRAGMENT_CLOSE
+    public static final int TRANSIT_FRAGMENT_FADE
+    public abstract android.support.v4.app.FragmentTransaction add(android.support.v4.app.Fragment,java.lang.String)
+    public abstract android.support.v4.app.FragmentTransaction add(int,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction replace(int,android.support.v4.app.Fragment,java.lang.String)
+    public abstract android.support.v4.app.FragmentTransaction remove(android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction hide(android.support.v4.app.Fragment)
+    public abstract android.support.v4.app.FragmentTransaction show(android.support.v4.app.Fragment)
+    public abstract boolean isEmpty()
+    public abstract android.support.v4.app.FragmentTransaction setCustomAnimations(int,int)
+    public abstract android.support.v4.app.FragmentTransaction setCustomAnimations(int,int,int,int)
+    public abstract android.support.v4.app.FragmentTransaction setTransition(int)
+    public abstract android.support.v4.app.FragmentTransaction setTransitionStyle(int)
+    public abstract android.support.v4.app.FragmentTransaction addToBackStack(java.lang.String)
+    public abstract boolean isAddToBackStackAllowed()
+    public abstract android.support.v4.app.FragmentTransaction disallowAddToBackStack()
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbTitle(int)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbTitle(java.lang.CharSequence)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(int)
+    public abstract android.support.v4.app.FragmentTransaction setBreadCrumbShortTitle(java.lang.CharSequence)
+    public abstract int commitAllowingStateLoss()
+android.support.v4.app.ListFragment
+android.support.v4.app.ListFragment$1
+android.support.v4.app.ListFragment$2
+android.support.v4.app.LoaderManager:
+    public abstract android.support.v4.content.Loader initLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    public abstract android.support.v4.content.Loader restartLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    public abstract void destroyLoader(int)
+    public abstract android.support.v4.content.Loader getLoader(int)
+    public abstract void dump(java.lang.String,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+    177:178:public static void enableDebugLogging(boolean)
+android.support.v4.app.LoaderManagerImpl:
+    static final java.lang.String TAG
+    boolean mRetainingStarted
+    boolean mCreatingLoader
+    489:492:private android.support.v4.app.LoaderManagerImpl$LoaderInfo createLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    498:503:private android.support.v4.app.LoaderManagerImpl$LoaderInfo createAndInstallLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    508:515:void installLoader(android.support.v4.app.LoaderManagerImpl$LoaderInfo)
+    543:565:public android.support.v4.content.Loader initLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    593:647:public android.support.v4.content.Loader restartLoader(int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    658:678:public void destroyLoader(int)
+    686:697:public android.support.v4.content.Loader getLoader(int)
+android.support.v4.app.LoaderManagerImpl$LoaderInfo:
+    228:232:public LoaderManagerImpl$LoaderInfo(android.support.v4.app.LoaderManagerImpl,int,android.os.Bundle,android.support.v4.app.LoaderManager$LoaderCallbacks)
+    362:415:public void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)
+android.support.v4.app.NavUtils:
+    private static final java.lang.String TAG
+    public static final java.lang.String PARENT_ACTIVITY
+    158:158:public static boolean shouldUpRecreateTask(android.app.Activity,android.content.Intent)
+    230:240:public static android.content.Intent getParentActivityIntent(android.content.Context,java.lang.Class)
+    255:265:public static android.content.Intent getParentActivityIntent(android.content.Context,android.content.ComponentName)
+    304:305:private NavUtils()
+android.support.v4.app.NavUtils$NavUtilsImpl:
+    public abstract boolean shouldUpRecreateTask(android.app.Activity,android.content.Intent)
+android.support.v4.app.NavUtils$NavUtilsImplBase:
+    72:73:public boolean shouldUpRecreateTask(android.app.Activity,android.content.Intent)
+android.support.v4.app.NavUtils$NavUtilsImplJB:
+    114:114:public boolean shouldUpRecreateTask(android.app.Activity,android.content.Intent)
+android.support.v4.app.NavUtilsJB:
+    23:23:NavUtilsJB()
+    29:29:public static boolean shouldUpRecreateTask(android.app.Activity,android.content.Intent)
+android.support.v4.app.NotificationCompat
+android.support.v4.app.NotificationCompat$Action
+android.support.v4.app.NotificationCompat$BigPictureStyle
+android.support.v4.app.NotificationCompat$BigTextStyle
+android.support.v4.app.NotificationCompat$Builder
+android.support.v4.app.NotificationCompat$InboxStyle
+android.support.v4.app.NotificationCompat$NotificationCompatImpl
+android.support.v4.app.NotificationCompat$NotificationCompatImplBase
+android.support.v4.app.NotificationCompat$NotificationCompatImplHoneycomb
+android.support.v4.app.NotificationCompat$NotificationCompatImplIceCreamSandwich
+android.support.v4.app.NotificationCompat$NotificationCompatImplJellybean
+android.support.v4.app.NotificationCompat$Style
+android.support.v4.app.NotificationCompatHoneycomb
+android.support.v4.app.NotificationCompatIceCreamSandwich
+android.support.v4.app.NotificationCompatJellybean
+android.support.v4.app.ServiceCompat
+android.support.v4.app.ShareCompat
+android.support.v4.app.ShareCompat$IntentBuilder
+android.support.v4.app.ShareCompat$IntentReader
+android.support.v4.app.ShareCompat$ShareCompatImpl
+android.support.v4.app.ShareCompat$ShareCompatImplBase
+android.support.v4.app.ShareCompat$ShareCompatImplICS
+android.support.v4.app.ShareCompat$ShareCompatImplJB
+android.support.v4.app.ShareCompatICS
+android.support.v4.app.ShareCompatJB
+android.support.v4.app.TaskStackBuilder
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImpl
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImplBase
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImplHoneycomb
+android.support.v4.app.TaskStackBuilder$TaskStackBuilderImplJellybean
+android.support.v4.app.TaskStackBuilderHoneycomb
+android.support.v4.app.TaskStackBuilderJellybean
+android.support.v4.content.AsyncTaskLoader
+android.support.v4.content.AsyncTaskLoader$LoadTask
+android.support.v4.content.ContextCompat
+android.support.v4.content.ContextCompatHoneycomb
+android.support.v4.content.ContextCompatJellybean
+android.support.v4.content.CursorLoader
+android.support.v4.content.IntentCompat:
+    public static final java.lang.String ACTION_EXTERNAL_APPLICATIONS_AVAILABLE
+    public static final java.lang.String ACTION_EXTERNAL_APPLICATIONS_UNAVAILABLE
+    public static final java.lang.String EXTRA_CHANGED_PACKAGE_LIST
+    public static final java.lang.String EXTRA_CHANGED_UID_LIST
+    public static final java.lang.String EXTRA_HTML_TEXT
+    public static final int FLAG_ACTIVITY_TASK_ON_HOME
+    public static final int FLAG_ACTIVITY_CLEAR_TASK
+    95:97:private IntentCompat()
+    249:249:public static android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+    266:266:public static android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImpl:
+    public abstract android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+    public abstract android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImplBase:
+    51:53:public android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+    58:61:public android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImplHC:
+    72:72:public android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompat$IntentCompatImplIcsMr1:
+    79:79:public android.content.Intent makeMainSelectorActivity(java.lang.String,java.lang.String)
+android.support.v4.content.IntentCompatHoneycomb:
+    22:22:IntentCompatHoneycomb()
+    28:28:public static android.content.Intent makeRestartActivityTask(android.content.ComponentName)
+android.support.v4.content.IntentCompatIcsMr1
+android.support.v4.content.Loader:
+    android.content.Context mContext
+    90:92:public Loader(android.content.Context)
+    102:105:public void deliverResult(java.lang.Object)
+    111:111:public android.content.Context getContext()
+    118:118:public int getId()
+    157:157:public boolean isStarted()
+    166:166:public boolean isAbandoned()
+    175:175:public boolean isReset()
+    217:218:public void forceLoad()
+    225:225:protected void onForceLoad()
+    261:263:public void abandon()
+    275:275:protected void onAbandon()
+    312:314:public boolean takeContentChanged()
+    326:334:public void onContentChanged()
+android.support.v4.content.Loader$ForceLoadContentObserver
+android.support.v4.content.Loader$OnLoadCompleteListener:
+    public abstract void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)
+android.support.v4.content.LocalBroadcastManager
+android.support.v4.content.LocalBroadcastManager$1
+android.support.v4.content.LocalBroadcastManager$BroadcastRecord
+android.support.v4.content.LocalBroadcastManager$ReceiverRecord
+android.support.v4.content.ModernAsyncTask
+android.support.v4.content.ModernAsyncTask$1
+android.support.v4.content.ModernAsyncTask$2
+android.support.v4.content.ModernAsyncTask$3
+android.support.v4.content.ModernAsyncTask$4
+android.support.v4.content.ModernAsyncTask$AsyncTaskResult
+android.support.v4.content.ModernAsyncTask$InternalHandler
+android.support.v4.content.ModernAsyncTask$Status
+android.support.v4.content.ModernAsyncTask$WorkerRunnable
+android.support.v4.content.pm.ActivityInfoCompat
+android.support.v4.database.DatabaseUtilsCompat
+android.support.v4.net.ConnectivityManagerCompat
+android.support.v4.net.ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$ConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$GingerbreadConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$HoneycombMR2ConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompat$JellyBeanConnectivityManagerCompatImpl
+android.support.v4.net.ConnectivityManagerCompatGingerbread
+android.support.v4.net.ConnectivityManagerCompatHoneycombMR2
+android.support.v4.net.ConnectivityManagerCompatJellyBean
+android.support.v4.net.TrafficStatsCompat
+android.support.v4.net.TrafficStatsCompat$1
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl$1
+android.support.v4.net.TrafficStatsCompat$BaseTrafficStatsCompatImpl$SocketTags
+android.support.v4.net.TrafficStatsCompat$IcsTrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompat$TrafficStatsCompatImpl
+android.support.v4.net.TrafficStatsCompatIcs
+android.support.v4.os.ParcelableCompat:
+    26:42:public ParcelableCompat()
+android.support.v4.os.ParcelableCompatCreatorHoneycombMR2Stub:
+    22:22:ParcelableCompatCreatorHoneycombMR2Stub()
+android.support.v4.util.AtomicFile
+android.support.v4.util.DebugUtils:
+    25:25:public DebugUtils()
+android.support.v4.util.LongSparseArray
+android.support.v4.util.LruCache
+android.support.v4.util.SparseArrayCompat:
+    52:52:public java.lang.Object get(int)
+    60:65:public java.lang.Object get(int,java.lang.Object)
+    73:81:public void delete(int)
+    87:88:public void remove(int)
+    94:98:public void removeAt(int)
+    107:111:public void removeAtRange(int,int)
+    146:190:public void put(int,java.lang.Object)
+    236:241:public void setValueAt(int,java.lang.Object)
+    249:253:public int indexOfKey(int)
+    265:273:public int indexOfValue(java.lang.Object)
+    296:323:public void append(int,java.lang.Object)
+    326:342:private static int binarySearch(int[],int,int,int)
+android.support.v4.util.TimeUtils
+android.support.v4.view.AccessibilityDelegateCompat
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateIcsImpl$1
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateJellyBeanImpl$1
+android.support.v4.view.AccessibilityDelegateCompat$AccessibilityDelegateStubImpl
+android.support.v4.view.AccessibilityDelegateCompatIcs
+android.support.v4.view.AccessibilityDelegateCompatIcs$1
+android.support.v4.view.AccessibilityDelegateCompatIcs$AccessibilityDelegateBridge
+android.support.v4.view.AccessibilityDelegateCompatJellyBean
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$1
+android.support.v4.view.AccessibilityDelegateCompatJellyBean$AccessibilityDelegateBridgeJellyBean
+android.support.v4.view.GestureDetectorCompat
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImpl
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase$GestureHandler
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplJellybeanMr1
+android.support.v4.view.KeyEventCompat:
+    25:95:public KeyEventCompat()
+    127:127:public static int normalizeMetaState(int)
+    131:131:public static boolean metaStateHasModifiers(int,int)
+    135:135:public static boolean metaStateHasNoModifiers(int)
+android.support.v4.view.KeyEventCompat$BaseKeyEventVersionImpl:
+    private static final int META_MODIFIER_MASK
+    private static final int META_ALL_MASK
+android.support.v4.view.KeyEventCompat$HoneycombKeyEventVersionImpl:
+    98:98:public int normalizeMetaState(int)
+android.support.v4.view.KeyEventCompat$KeyEventVersionImpl:
+    public abstract int normalizeMetaState(int)
+android.support.v4.view.KeyEventCompatHoneycomb:
+    24:24:KeyEventCompatHoneycomb()
+    26:26:public static int normalizeMetaState(int)
+android.support.v4.view.MenuCompat
+android.support.v4.view.MenuCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompat
+android.support.v4.view.MenuItemCompat$BaseMenuVersionImpl
+android.support.v4.view.MenuItemCompat$HoneycombMenuVersionImpl
+android.support.v4.view.MenuItemCompat$MenuVersionImpl
+android.support.v4.view.MenuItemCompatHoneycomb
+android.support.v4.view.MotionEventCompat:
+    public static final int ACTION_MASK
+    public static final int ACTION_POINTER_DOWN
+    public static final int ACTION_POINTER_UP
+    public static final int ACTION_HOVER_MOVE
+    public static final int ACTION_SCROLL
+    public static final int ACTION_POINTER_INDEX_MASK
+    public static final int ACTION_POINTER_INDEX_SHIFT
+    public static final int ACTION_HOVER_ENTER
+    public static final int ACTION_HOVER_EXIT
+    25:80:public MotionEventCompat()
+    183:183:public static int getActionMasked(android.view.MotionEvent)
+    236:236:public static int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat$BaseMotionEventVersionImpl:
+    73:73:public int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat$EclairMotionEventVersionImpl:
+    99:99:public int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompat$MotionEventVersionImpl:
+    public abstract int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.MotionEventCompatEclair:
+    24:24:MotionEventCompatEclair()
+    38:38:public static int getPointerCount(android.view.MotionEvent)
+android.support.v4.view.PagerAdapter:
+    public static final int POSITION_UNCHANGED
+    public static final int POSITION_NONE
+    78:79:public PagerAdapter()
+    276:277:public void notifyDataSetChanged()
+    297:297:public java.lang.CharSequence getPageTitle(int)
+android.support.v4.view.PagerTabStrip
+android.support.v4.view.PagerTabStrip$1
+android.support.v4.view.PagerTabStrip$2
+android.support.v4.view.PagerTitleStrip
+android.support.v4.view.PagerTitleStrip$1
+android.support.v4.view.PagerTitleStrip$PageListener
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImpl
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImplBase
+android.support.v4.view.PagerTitleStrip$PagerTitleStripImplIcs
+android.support.v4.view.PagerTitleStripIcs
+android.support.v4.view.PagerTitleStripIcs$SingleLineAllCapsTransform
+android.support.v4.view.VelocityTrackerCompat:
+    25:51:public VelocityTrackerCompat()
+    91:91:public static float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$BaseVelocityTrackerVersionImpl:
+    44:44:public float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$HoneycombVelocityTrackerVersionImpl:
+    58:58:public float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompat$VelocityTrackerVersionImpl:
+    public abstract float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.VelocityTrackerCompatHoneycomb:
+    24:24:VelocityTrackerCompatHoneycomb()
+    29:29:public static float getYVelocity(android.view.VelocityTracker,int)
+android.support.v4.view.ViewCompat:
+    public static final int OVER_SCROLL_ALWAYS
+    public static final int OVER_SCROLL_IF_CONTENT_SCROLLS
+    public static final int OVER_SCROLL_NEVER
+    private static final long FAKE_FRAME_TIME
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_AUTO
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_YES
+    public static final int IMPORTANT_FOR_ACCESSIBILITY_NO
+    public static final int LAYER_TYPE_NONE
+    public static final int LAYER_TYPE_SOFTWARE
+    public static final int LAYER_TYPE_HARDWARE
+    31:308:public ViewCompat()
+    358:358:public static boolean canScrollVertically(android.view.View,int)
+    387:388:public static void setOverScrollMode(android.view.View,int)
+    424:425:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    457:458:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    493:494:public static void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    508:509:public static void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+    520:520:public static boolean hasTransientState(android.view.View)
+    531:532:public static void setHasTransientState(android.view.View,boolean)
+    562:563:public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    593:594:public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    609:609:public static int getImportantForAccessibility(android.view.View)
+    625:626:public static void setImportantForAccessibility(android.view.View,int)
+    643:643:public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    670:670:public static android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    733:733:public static int getLayerType(android.view.View)
+    744:744:public static int getLabelFor(android.view.View)
+    755:756:public static void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompat$BaseViewCompatImpl:
+    144:144:public boolean canScrollVertically(android.view.View,int)
+    151:151:public void setOverScrollMode(android.view.View,int)
+    154:154:public void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+    157:157:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    160:160:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    163:163:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    166:166:public boolean hasTransientState(android.view.View)
+    170:170:public void setHasTransientState(android.view.View,boolean)
+    175:176:public void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    181:182:public void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    187:187:public int getImportantForAccessibility(android.view.View)
+    191:191:public void setImportantForAccessibility(android.view.View,int)
+    193:193:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    196:196:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    201:201:public int getLayerType(android.view.View)
+    204:204:public int getLabelFor(android.view.View)
+    208:208:public void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompat$GBViewCompatImpl:
+    218:219:public void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompat$HCViewCompatImpl:
+    230:230:public int getLayerType(android.view.View)
+android.support.v4.view.ViewCompat$ICSViewCompatImpl:
+    241:241:public boolean canScrollVertically(android.view.View,int)
+    245:246:public void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    249:250:public void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    253:254:public void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    257:258:public void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+android.support.v4.view.ViewCompat$JBViewCompatImpl:
+    264:264:public boolean hasTransientState(android.view.View)
+    268:269:public void setHasTransientState(android.view.View,boolean)
+    276:277:public void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    284:285:public void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    288:288:public int getImportantForAccessibility(android.view.View)
+    292:293:public void setImportantForAccessibility(android.view.View,int)
+    296:296:public boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    300:304:public android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+android.support.v4.view.ViewCompat$JbMr1ViewCompatImpl:
+    312:312:public int getLabelFor(android.view.View)
+    317:318:public void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompat$ViewCompatImpl:
+    public abstract boolean canScrollVertically(android.view.View,int)
+    public abstract void setOverScrollMode(android.view.View,int)
+    public abstract void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    public abstract void onInitializeAccessibilityNodeInfo(android.view.View,android.support.v4.view.accessibility.AccessibilityNodeInfoCompat)
+    public abstract void setAccessibilityDelegate(android.view.View,android.support.v4.view.AccessibilityDelegateCompat)
+    public abstract boolean hasTransientState(android.view.View)
+    public abstract void setHasTransientState(android.view.View,boolean)
+    public abstract void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    public abstract void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    public abstract int getImportantForAccessibility(android.view.View)
+    public abstract void setImportantForAccessibility(android.view.View,int)
+    public abstract boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    public abstract android.support.v4.view.accessibility.AccessibilityNodeProviderCompat getAccessibilityNodeProvider(android.view.View)
+    public abstract int getLayerType(android.view.View)
+    public abstract int getLabelFor(android.view.View)
+    public abstract void setLabelFor(android.view.View,int)
+android.support.v4.view.ViewCompatGingerbread:
+    21:21:ViewCompatGingerbread()
+    27:28:public static void setOverScrollMode(android.view.View,int)
+android.support.v4.view.ViewCompatHC:
+    23:23:ViewCompatHC()
+    33:33:public static int getLayerType(android.view.View)
+android.support.v4.view.ViewCompatICS:
+    27:27:ViewCompatICS()
+    34:34:public static boolean canScrollVertically(android.view.View,int)
+    38:39:public static void setAccessibilityDelegate(android.view.View,java.lang.Object)
+    42:43:public static void onPopulateAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    46:47:public static void onInitializeAccessibilityEvent(android.view.View,android.view.accessibility.AccessibilityEvent)
+    50:51:public static void onInitializeAccessibilityNodeInfo(android.view.View,java.lang.Object)
+android.support.v4.view.ViewCompatJB:
+    25:25:public ViewCompatJB()
+    28:28:public static boolean hasTransientState(android.view.View)
+    32:33:public static void setHasTransientState(android.view.View,boolean)
+    41:42:public static void postInvalidateOnAnimation(android.view.View,int,int,int,int)
+    49:50:public static void postOnAnimationDelayed(android.view.View,java.lang.Runnable,long)
+    53:53:public static int getImportantForAccessibility(android.view.View)
+    57:58:public static void setImportantForAccessibility(android.view.View,int)
+    61:61:public static boolean performAccessibilityAction(android.view.View,int,android.os.Bundle)
+    65:65:public static java.lang.Object getAccessibilityNodeProvider(android.view.View)
+android.support.v4.view.ViewCompatJellybeanMr1
+android.support.v4.view.ViewConfigurationCompat
+android.support.v4.view.ViewConfigurationCompat$BaseViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$FroyoViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompat$ViewConfigurationVersionImpl
+android.support.v4.view.ViewConfigurationCompatFroyo
+android.support.v4.view.ViewGroupCompat
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatIcsImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatImpl
+android.support.v4.view.ViewGroupCompat$ViewGroupCompatStubImpl
+android.support.v4.view.ViewGroupCompatIcs
+android.support.v4.view.ViewPager:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    private static final boolean USE_CACHE
+    private static final int DEFAULT_OFFSCREEN_PAGES
+    private static final int MAX_SETTLE_DURATION
+    private static final int MIN_DISTANCE_FOR_FLING
+    private static final int DEFAULT_GUTTER_SIZE
+    private static final int MIN_FLING_VELOCITY
+    private boolean mIgnoreGutter
+    private static final int INVALID_POINTER
+    private static final int CLOSE_ENOUGH
+    private long mFakeDragBeginTime
+    private static final int DRAW_ORDER_DEFAULT
+    private static final int DRAW_ORDER_FORWARD
+    private static final int DRAW_ORDER_REVERSE
+    public static final int SCROLL_STATE_IDLE
+    public static final int SCROLL_STATE_DRAGGING
+    public static final int SCROLL_STATE_SETTLING
+    338:340:public ViewPager(android.content.Context)
+    343:345:public ViewPager(android.content.Context,android.util.AttributeSet)
+    348:373:void initViewPager()
+    578:590:public void setPageTransformer(boolean,android.support.v4.view.ViewPager$PageTransformer)
+    622:624:android.support.v4.view.ViewPager$OnPageChangeListener setInternalPageChangeListener(android.support.v4.view.ViewPager$OnPageChangeListener)
+    746:747:void smoothScrollTo(int,int)
+    2194:2210:public boolean beginFakeDrag()
+    2220:2241:public void endFakeDrag()
+    2251:2289:public void fakeDragBy(float)
+    2301:2301:public boolean isFakeDragging()
+    84:84:static synthetic void access$000(android.support.v4.view.ViewPager,int)
+    84:84:static synthetic android.support.v4.view.PagerAdapter access$200(android.support.v4.view.ViewPager)
+    84:84:static synthetic int access$300(android.support.v4.view.ViewPager)
+android.support.v4.view.ViewPager$3
+android.support.v4.view.ViewPager$MyAccessibilityDelegate
+android.support.v4.view.ViewPager$SimpleOnPageChangeListener
+android.support.v4.view.accessibility.AccessibilityEventCompat
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventIcsImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventStubImpl
+android.support.v4.view.accessibility.AccessibilityEventCompat$AccessibilityEventVersionImpl
+android.support.v4.view.accessibility.AccessibilityEventCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerIcsImpl$1
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerStubImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityManagerVersionImpl
+android.support.v4.view.accessibility.AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$1
+android.support.v4.view.accessibility.AccessibilityManagerCompatIcs$AccessibilityStateChangeListenerBridge
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoIcsImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoJellybeanImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompat$AccessibilityNodeInfoStubImpl
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatIcs
+android.support.v4.view.accessibility.AccessibilityNodeInfoCompatJellyBean
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderImpl
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderJellyBeanImpl$1
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompat$AccessibilityNodeProviderStubImpl
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$1
+android.support.v4.view.accessibility.AccessibilityNodeProviderCompatJellyBean$AccessibilityNodeInfoBridge
+android.support.v4.view.accessibility.AccessibilityRecordCompat
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordIcsMr1Impl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordJellyBeanImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompat$AccessibilityRecordStubImpl
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcs
+android.support.v4.view.accessibility.AccessibilityRecordCompatIcsMr1
+android.support.v4.view.accessibility.AccessibilityRecordCompatJellyBean
+android.support.v4.widget.CursorAdapter
+android.support.v4.widget.CursorAdapter$1
+android.support.v4.widget.CursorAdapter$ChangeObserver
+android.support.v4.widget.CursorAdapter$MyDataSetObserver
+android.support.v4.widget.CursorFilter
+android.support.v4.widget.CursorFilter$CursorFilterClient
+android.support.v4.widget.EdgeEffectCompat:
+    132:134:public EdgeEffectCompat(android.content.Context)
+    204:204:public boolean onAbsorb(int)
+android.support.v4.widget.EdgeEffectCompat$BaseEdgeEffectImpl:
+    60:60:public java.lang.Object newEdgeEffect(android.content.Context)
+    82:82:public boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectIcsImpl:
+    92:92:public java.lang.Object newEdgeEffect(android.content.Context)
+    116:116:public boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompat$EdgeEffectImpl:
+    public abstract java.lang.Object newEdgeEffect(android.content.Context)
+    public abstract boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.EdgeEffectCompatIcs:
+    28:28:EdgeEffectCompatIcs()
+    30:30:public static java.lang.Object newEdgeEffect(android.content.Context)
+    57:58:public static boolean onAbsorb(java.lang.Object,int)
+android.support.v4.widget.ResourceCursorAdapter
+android.support.v4.widget.ScrollerCompat
+android.support.v4.widget.ScrollerCompat$ScrollerCompatImplIcs
+android.support.v4.widget.ScrollerCompatIcs
+android.support.v4.widget.SearchViewCompat
+android.support.v4.widget.SearchViewCompat$OnCloseListenerCompat
+android.support.v4.widget.SearchViewCompat$OnQueryTextListenerCompat
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl$1
+android.support.v4.widget.SearchViewCompat$SearchViewCompatHoneycombImpl$2
+android.support.v4.widget.SearchViewCompat$SearchViewCompatIcsImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatImpl
+android.support.v4.widget.SearchViewCompat$SearchViewCompatStubImpl
+android.support.v4.widget.SearchViewCompatHoneycomb
+android.support.v4.widget.SearchViewCompatHoneycomb$1
+android.support.v4.widget.SearchViewCompatHoneycomb$2
+android.support.v4.widget.SearchViewCompatHoneycomb$OnCloseListenerCompatBridge
+android.support.v4.widget.SearchViewCompatHoneycomb$OnQueryTextListenerCompatBridge
+android.support.v4.widget.SearchViewCompatIcs
+android.support.v4.widget.SearchViewCompatIcs$MySearchView
+android.support.v4.widget.SimpleCursorAdapter
+android.support.v4.widget.SimpleCursorAdapter$CursorToStringConverter
+android.support.v4.widget.SimpleCursorAdapter$ViewBinder
+com.google.android.gms.R:
+    9:9:public R()
+com.google.android.gms.R$attr
+com.google.android.gms.R$id
+com.google.android.gms.R$string:
+    17:17:public R$string()
+com.google.android.gms.R$styleable:
+    36:36:public R$styleable()
+com.google.android.gms.auth.GoogleAuthException
+com.google.android.gms.auth.GoogleAuthUtil
+com.google.android.gms.auth.GooglePlayServicesAvailabilityException
+com.google.android.gms.auth.UserRecoverableAuthException
+com.google.android.gms.auth.UserRecoverableNotifiedException
+com.google.android.gms.common.AccountPicker
+com.google.android.gms.common.ConnectionResult
+com.google.android.gms.common.GooglePlayServicesClient
+com.google.android.gms.common.GooglePlayServicesClient$ConnectionCallbacks
+com.google.android.gms.common.GooglePlayServicesClient$OnConnectionFailedListener
+com.google.android.gms.common.GooglePlayServicesUtil:
+    public static final int GOOGLE_PLAY_SERVICES_VERSION_CODE
+    public static final java.lang.String GOOGLE_PLAY_SERVICES_PACKAGE
+    public static final java.lang.String GOOGLE_PLAY_STORE_PACKAGE
+    public static java.lang.String getErrorString(int)
+    public static android.app.Dialog getErrorDialog(int,android.app.Activity,int)
+    public static android.app.PendingIntent getErrorPendingIntent(int,android.content.Context,int)
+    public static android.app.Dialog getErrorDialog(int,android.app.Activity,int,android.content.DialogInterface$OnCancelListener)
+    public static android.app.Dialog a(int,android.app.Activity,int,android.content.DialogInterface$OnCancelListener,int)
+    public static boolean isUserRecoverableError(int)
+    public static android.content.res.Resources getRemoteResource(android.content.Context)
+com.google.android.gms.common.Scopes
+com.google.android.gms.common.SignInButton
+com.google.android.gms.common.data.DataBuffer
+com.google.android.gms.common.data.DataBufferIterator
+com.google.android.gms.common.data.DataBufferRef
+com.google.android.gms.common.data.DataBufferUtils
+com.google.android.gms.common.data.DataHolder:
+    public DataHolder(java.lang.String[],android.database.CursorWindow[],int,android.os.Bundle)
+    public DataHolder(android.database.AbstractWindowedCursor,int,android.os.Bundle)
+    private DataHolder(com.google.android.gms.common.data.DataHolder$Builder,int,android.os.Bundle)
+    public int getStatusCode()
+    public android.os.Bundle aS()
+    private static android.database.CursorWindow[] a(android.database.AbstractWindowedCursor)
+    private static android.database.CursorWindow[] c(com.google.android.gms.common.data.DataHolder$Builder)
+    private void g(java.lang.String,int)
+    public long getLong(java.lang.String,int,int)
+    public int getInteger(java.lang.String,int,int)
+    public java.lang.String getString(java.lang.String,int,int)
+    public boolean getBoolean(java.lang.String,int,int)
+    public byte[] getByteArray(java.lang.String,int,int)
+    public android.net.Uri parseUri(java.lang.String,int,int)
+    public void copyToBuffer(java.lang.String,int,int,android.database.CharArrayBuffer)
+    public boolean hasNull(java.lang.String,int,int)
+    public int getCount()
+    public int s(int)
+    public boolean isClosed()
+    public void close()
+    public static com.google.android.gms.common.data.DataHolder$Builder builder(java.lang.String[])
+    public static com.google.android.gms.common.data.DataHolder$Builder builder(java.lang.String[],java.lang.String)
+    public static com.google.android.gms.common.data.DataHolder empty(int)
+    public static com.google.android.gms.common.data.DataHolder empty(int,android.os.Bundle)
+    synthetic DataHolder(com.google.android.gms.common.data.DataHolder$Builder,int,android.os.Bundle,com.google.android.gms.internal.bd)
+com.google.android.gms.common.data.DataHolder$Builder:
+    public com.google.android.gms.common.data.DataHolder$Builder withRow(java.util.HashMap)
+    private void a(java.util.HashMap)
+    public com.google.android.gms.common.data.DataHolder$Builder withRow(android.content.ContentValues)
+    public com.google.android.gms.common.data.DataHolder$Builder sort(java.lang.String)
+    private void G()
+    public int getCount()
+    public com.google.android.gms.common.data.DataHolder build(int)
+    public com.google.android.gms.common.data.DataHolder build(int,android.os.Bundle)
+    static synthetic java.lang.String[] a(com.google.android.gms.common.data.DataHolder$Builder)
+    static synthetic java.util.ArrayList b(com.google.android.gms.common.data.DataHolder$Builder)
+com.google.android.gms.common.data.DataHolder$a
+com.google.android.gms.common.data.DataHolderCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.common.data.EntityBuffer
+com.google.android.gms.common.data.Freezable
+com.google.android.gms.common.images.ImageManager:
+    private static com.google.android.gms.common.images.ImageManager cl
+    private final java.util.Map cm
+    public static com.google.android.gms.common.images.ImageManager create(android.content.Context)
+    private ImageManager(android.content.Context)
+    public void loadImage(android.widget.ImageView,android.net.Uri)
+    public void loadImage(android.widget.ImageView,int)
+    public void loadImage(android.widget.ImageView,android.net.Uri,int)
+    public void loadImage(com.google.android.gms.common.images.ImageManager$OnImageLoadedListener,android.net.Uri)
+    public void loadImage(com.google.android.gms.common.images.ImageManager$OnImageLoadedListener,android.net.Uri,int)
+    private void a(com.google.android.gms.common.images.ImageManager$ListenerHolder,android.net.Uri)
+    static synthetic java.util.Map d(com.google.android.gms.common.images.ImageManager)
+com.google.android.gms.common.images.ImageManager$1
+com.google.android.gms.common.images.ImageManager$ImageReceiver:
+    ImageManager$ImageReceiver(com.google.android.gms.common.images.ImageManager,android.net.Uri)
+    public void addOnImageLoadedListenerHolder(com.google.android.gms.common.images.ImageManager$ListenerHolder)
+    public void removeOnImageLoadedListenerHolder(com.google.android.gms.common.images.ImageManager$ListenerHolder)
+    public android.net.Uri getUri()
+com.google.android.gms.common.images.ImageManager$ListenerHolder:
+    protected final int mDefaultResId
+    final synthetic com.google.android.gms.common.images.ImageManager bd
+    private ImageManager$ListenerHolder(com.google.android.gms.common.images.ImageManager,int,int)
+    public abstract void handleCachedDrawable(android.net.Uri,android.graphics.drawable.Drawable)
+    public abstract boolean shouldLoadImage(android.net.Uri)
+    synthetic ImageManager$ListenerHolder(com.google.android.gms.common.images.ImageManager,int,int,com.google.android.gms.common.images.ImageManager$1)
+com.google.android.gms.common.images.ImageManager$OnImageLoadedListener
+com.google.android.gms.common.images.ImageManager$a
+com.google.android.gms.common.images.ImageManager$b
+com.google.android.gms.common.images.ImageManager$c
+com.google.android.gms.internal.a$a:
+    public a$a()
+com.google.android.gms.internal.aa
+com.google.android.gms.internal.aa$a
+com.google.android.gms.internal.aa$b
+com.google.android.gms.internal.aa$c
+com.google.android.gms.internal.aa$d
+com.google.android.gms.internal.aa$e
+com.google.android.gms.internal.aa$f
+com.google.android.gms.internal.ab$a:
+    public ab$a()
+com.google.android.gms.internal.ac
+com.google.android.gms.internal.ae$a:
+    public ae$a()
+com.google.android.gms.internal.af:
+    public af(java.lang.String,java.lang.String,com.google.android.gms.internal.af$f,int,java.lang.String)
+    public boolean hasAboutMe()
+    public com.google.android.gms.plus.model.people.Person$AgeRange getAgeRange()
+    public boolean hasAgeRange()
+    public boolean hasBirthday()
+    public boolean hasBraggingRights()
+    public boolean hasCircledByCount()
+    public com.google.android.gms.plus.model.people.Person$Cover getCover()
+    public boolean hasCover()
+    public boolean hasCurrentLocation()
+    public boolean hasDisplayName()
+    public java.util.List getEmails()
+    public boolean hasEmails()
+    public boolean hasGender()
+    public boolean hasHasApp()
+    public boolean hasId()
+    public com.google.android.gms.plus.model.people.Person$Image getImage()
+    public boolean hasImage()
+    public boolean hasIsPlusUser()
+    public boolean hasLanguage()
+    public com.google.android.gms.plus.model.people.Person$Name getName()
+    public boolean hasName()
+    public boolean hasNickname()
+    public boolean hasObjectType()
+    public java.util.List getOrganizations()
+    public boolean hasOrganizations()
+    public java.util.List getPlacesLived()
+    public boolean hasPlacesLived()
+    public boolean hasPlusOneCount()
+    public boolean hasRelationshipStatus()
+    public boolean hasTagline()
+    public boolean hasUrl()
+    public java.util.List getUrls()
+    public boolean hasUrls()
+    public boolean hasVerified()
+    public static com.google.android.gms.internal.af c(byte[])
+    public com.google.android.gms.internal.af bz()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$a:
+    public boolean hasMax()
+    public boolean hasMin()
+    public com.google.android.gms.internal.af$a k()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$b:
+    public boolean hasPrimary()
+    public boolean hasValue()
+    public com.google.android.gms.internal.af$b y()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$c:
+    public boolean hasFamilyName()
+    public boolean hasFormatted()
+    public boolean hasGivenName()
+    public boolean hasHonorificPrefix()
+    public boolean hasHonorificSuffix()
+    public boolean hasMiddleName()
+    public com.google.android.gms.internal.af$c A()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$d
+com.google.android.gms.internal.af$e:
+    public com.google.android.gms.plus.model.people.Person$Cover$CoverInfo getCoverInfo()
+    public boolean hasCoverInfo()
+    public com.google.android.gms.plus.model.people.Person$Cover$CoverPhoto getCoverPhoto()
+    public boolean hasCoverPhoto()
+    public boolean hasLayout()
+    public com.google.android.gms.internal.af$e aX()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$e$a:
+    public boolean hasLeftImageOffset()
+    public boolean hasTopImageOffset()
+    public com.google.android.gms.internal.af$e$a K()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$e$b:
+    public boolean hasHeight()
+    public boolean hasUrl()
+    public boolean hasWidth()
+    public com.google.android.gms.internal.af$e$b aA()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$f:
+    public af$f(java.lang.String)
+    public boolean hasUrl()
+    public com.google.android.gms.internal.af$f av()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$g:
+    public boolean hasDepartment()
+    public boolean hasDescription()
+    public boolean hasEndDate()
+    public boolean hasLocation()
+    public boolean hasName()
+    public boolean hasPrimary()
+    public boolean hasStartDate()
+    public boolean hasTitle()
+    public boolean hasType()
+    public com.google.android.gms.internal.af$g az()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$h:
+    public boolean hasPrimary()
+    public boolean hasType()
+    public boolean hasValue()
+    public com.google.android.gms.internal.af$h aT()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.af$i:
+    public boolean hasPrimary()
+    public boolean hasType()
+    public boolean hasValue()
+    public com.google.android.gms.internal.af$i aU()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.ag
+com.google.android.gms.internal.ag$a
+com.google.android.gms.internal.ag$b
+com.google.android.gms.internal.ag$c
+com.google.android.gms.internal.ah:
+    private ah()
+com.google.android.gms.internal.ai
+com.google.android.gms.internal.ai$a
+com.google.android.gms.internal.ai$b
+com.google.android.gms.internal.ai$c
+com.google.android.gms.internal.ai$d
+com.google.android.gms.internal.ai$e
+com.google.android.gms.internal.ai$f
+com.google.android.gms.internal.ai$g
+com.google.android.gms.internal.ai$h
+com.google.android.gms.internal.ai$i
+com.google.android.gms.internal.ai$j
+com.google.android.gms.internal.ai$k
+com.google.android.gms.internal.ai$l
+com.google.android.gms.internal.ai$m
+com.google.android.gms.internal.aj
+com.google.android.gms.internal.aj$a
+com.google.android.gms.internal.aj$b
+com.google.android.gms.internal.aj$c
+com.google.android.gms.internal.al$a:
+    public al$a()
+com.google.android.gms.internal.ao
+com.google.android.gms.internal.ar$a:
+    public ar$a()
+com.google.android.gms.internal.as:
+    public void Y()
+    public as(java.lang.Class)
+    public void a(java.lang.Class,java.util.HashMap)
+    public boolean b(java.lang.Class)
+com.google.android.gms.internal.at
+com.google.android.gms.internal.au$a:
+    public au$a()
+com.google.android.gms.internal.av$a:
+    public av$a()
+com.google.android.gms.internal.ax$a:
+    public com.google.android.gms.internal.ax$a N()
+com.google.android.gms.internal.az
+com.google.android.gms.internal.az$a
+com.google.android.gms.internal.az$a$a
+com.google.android.gms.internal.b$a:
+    public b$a()
+com.google.android.gms.internal.bc
+com.google.android.gms.internal.bc$a
+com.google.android.gms.internal.bc$a$a
+com.google.android.gms.internal.bd:
+    public com.google.android.gms.common.data.DataHolder$Builder withRow(java.util.HashMap)
+    public com.google.android.gms.common.data.DataHolder$Builder withRow(android.content.ContentValues)
+com.google.android.gms.internal.bf
+com.google.android.gms.internal.bf$a
+com.google.android.gms.internal.bj
+com.google.android.gms.internal.bm$a:
+    public bm$a()
+com.google.android.gms.internal.bn:
+    public bn(java.util.Set,java.lang.String,com.google.android.gms.internal.ca,java.lang.String,com.google.android.gms.internal.ca,java.lang.String)
+    public boolean hasId()
+    public com.google.android.gms.plus.model.moments.ItemScope getResult()
+    public boolean hasResult()
+    public boolean hasStartDate()
+    public com.google.android.gms.plus.model.moments.ItemScope getTarget()
+    public boolean hasTarget()
+    public boolean hasType()
+    public com.google.android.gms.internal.bn at()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.bp$a:
+    public bp$a()
+com.google.android.gms.internal.br:
+    public static boolean c(java.lang.Object,java.lang.Object)
+    private br()
+com.google.android.gms.internal.bs
+com.google.android.gms.internal.bt:
+    private bt(com.google.android.gms.internal.aq,com.google.android.gms.internal.as,java.lang.String)
+    public static com.google.android.gms.internal.bt a(com.google.android.gms.internal.ax)
+    private static com.google.android.gms.internal.as b(com.google.android.gms.internal.ax)
+    private static void a(com.google.android.gms.internal.as,com.google.android.gms.internal.ax)
+    public com.google.android.gms.internal.aq a(android.os.Parcelable$Creator)
+com.google.android.gms.internal.bu
+com.google.android.gms.internal.bu$a
+com.google.android.gms.internal.bu$a$a
+com.google.android.gms.internal.bw
+com.google.android.gms.internal.bx:
+    public static boolean a(java.lang.Object[],java.lang.Object)
+    private bx()
+com.google.android.gms.internal.by
+com.google.android.gms.internal.c
+com.google.android.gms.internal.ca:
+    public ca(java.util.Set,com.google.android.gms.internal.ca,java.util.List,com.google.android.gms.internal.ca,java.lang.String,java.lang.String,java.lang.String,java.util.List,int,java.util.List,com.google.android.gms.internal.ca,java.util.List,java.lang.String,java.lang.String,com.google.android.gms.internal.ca,java.lang.String,java.lang.String,java.lang.String,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.ca,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.ca,double,com.google.android.gms.internal.ca,double,java.lang.String,com.google.android.gms.internal.ca,java.util.List,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.ca,java.lang.String,java.lang.String,java.lang.String,com.google.android.gms.internal.ca,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+    public com.google.android.gms.plus.model.moments.ItemScope getAbout()
+    public boolean hasAbout()
+    public boolean hasAdditionalName()
+    public com.google.android.gms.plus.model.moments.ItemScope getAddress()
+    public boolean hasAddress()
+    public boolean hasAddressCountry()
+    public boolean hasAddressLocality()
+    public boolean hasAddressRegion()
+    public java.util.List getAssociated_media()
+    public boolean hasAssociated_media()
+    public boolean hasAttendeeCount()
+    public java.util.List getAttendees()
+    public boolean hasAttendees()
+    public com.google.android.gms.plus.model.moments.ItemScope getAudio()
+    public boolean hasAudio()
+    public java.util.List getAuthor()
+    public boolean hasAuthor()
+    public boolean hasBestRating()
+    public boolean hasBirthDate()
+    public com.google.android.gms.plus.model.moments.ItemScope getByArtist()
+    public boolean hasByArtist()
+    public boolean hasCaption()
+    public boolean hasContentSize()
+    public boolean hasContentUrl()
+    public java.util.List getContributor()
+    public boolean hasContributor()
+    public boolean hasDateCreated()
+    public boolean hasDateModified()
+    public boolean hasDatePublished()
+    public boolean hasDescription()
+    public boolean hasDuration()
+    public boolean hasEmbedUrl()
+    public boolean hasEndDate()
+    public boolean hasFamilyName()
+    public boolean hasGender()
+    public com.google.android.gms.plus.model.moments.ItemScope getGeo()
+    public boolean hasGeo()
+    public boolean hasGivenName()
+    public boolean hasHeight()
+    public boolean hasId()
+    public boolean hasImage()
+    public com.google.android.gms.plus.model.moments.ItemScope getInAlbum()
+    public boolean hasInAlbum()
+    public boolean hasLatitude()
+    public com.google.android.gms.plus.model.moments.ItemScope getLocation()
+    public boolean hasLocation()
+    public boolean hasLongitude()
+    public boolean hasName()
+    public com.google.android.gms.plus.model.moments.ItemScope getPartOfTVSeries()
+    public boolean hasPartOfTVSeries()
+    public java.util.List getPerformers()
+    public boolean hasPerformers()
+    public boolean hasPlayerType()
+    public boolean hasPostOfficeBoxNumber()
+    public boolean hasPostalCode()
+    public boolean hasRatingValue()
+    public com.google.android.gms.plus.model.moments.ItemScope getReviewRating()
+    public boolean hasReviewRating()
+    public boolean hasStartDate()
+    public boolean hasStreetAddress()
+    public boolean hasText()
+    public com.google.android.gms.plus.model.moments.ItemScope getThumbnail()
+    public boolean hasThumbnail()
+    public boolean hasThumbnailUrl()
+    public boolean hasTickerSymbol()
+    public boolean hasType()
+    public boolean hasUrl()
+    public boolean hasWidth()
+    public boolean hasWorstRating()
+    public com.google.android.gms.internal.ca bo()
+    public bridge synthetic java.lang.Object freeze()
+com.google.android.gms.internal.cd$a:
+    public cd$a()
+com.google.android.gms.internal.cf:
+    public cf()
+com.google.android.gms.internal.ch:
+    public ch()
+com.google.android.gms.internal.ci
+com.google.android.gms.internal.cj:
+    public static void a(boolean)
+    private cj()
+com.google.android.gms.internal.ck
+com.google.android.gms.internal.cm:
+    private cm()
+com.google.android.gms.internal.co:
+    private co()
+com.google.android.gms.internal.d
+com.google.android.gms.internal.d$a
+com.google.android.gms.internal.d$a$a
+com.google.android.gms.internal.h$a:
+    public h$a()
+com.google.android.gms.internal.j:
+    private int w
+    public j(int)
+    public final java.lang.Object get(java.lang.Object)
+    protected java.lang.Object create(java.lang.Object)
+    public final void evictAll()
+    public final synchronized int size()
+com.google.android.gms.internal.k$a:
+    public k$a()
+com.google.android.gms.internal.l
+com.google.android.gms.internal.m$a:
+    public m$a()
+com.google.android.gms.internal.n
+com.google.android.gms.internal.n$a
+com.google.android.gms.internal.n$a$a
+com.google.android.gms.internal.p$a:
+    public p$a()
+com.google.android.gms.internal.q
+com.google.android.gms.internal.r
+com.google.android.gms.internal.r$a
+com.google.android.gms.internal.r$a$a
+com.google.android.gms.internal.s
+com.google.android.gms.internal.s$a
+com.google.android.gms.internal.t$a:
+    public t$a()
+com.google.android.gms.internal.u:
+    private u()
+    public static boolean g()
+com.google.android.gms.internal.w:
+    private w()
+com.google.android.gms.internal.x
+com.google.android.gms.internal.x$a
+com.google.android.gms.internal.x$a$a
+com.google.android.gms.internal.y
+com.google.android.gms.internal.y$a
+com.google.android.gms.internal.y$a$a
+com.google.android.gms.internal.z$a:
+    public z$a()
+com.google.android.gms.maps.CameraUpdateFactory:
+    private CameraUpdateFactory()
+    public static com.google.android.gms.maps.CameraUpdate zoomIn()
+    public static com.google.android.gms.maps.CameraUpdate zoomOut()
+    public static com.google.android.gms.maps.CameraUpdate scrollBy(float,float)
+    public static com.google.android.gms.maps.CameraUpdate zoomBy(float)
+    public static com.google.android.gms.maps.CameraUpdate zoomBy(float,android.graphics.Point)
+    public static com.google.android.gms.maps.CameraUpdate newCameraPosition(com.google.android.gms.maps.model.CameraPosition)
+    public static com.google.android.gms.maps.CameraUpdate newLatLngZoom(com.google.android.gms.maps.model.LatLng,float)
+    public static com.google.android.gms.maps.CameraUpdate newLatLngBounds(com.google.android.gms.maps.model.LatLngBounds,int)
+    public static com.google.android.gms.maps.CameraUpdate newLatLngBounds(com.google.android.gms.maps.model.LatLngBounds,int,int,int)
+com.google.android.gms.maps.GoogleMap:
+    public static final int MAP_TYPE_NONE
+    public static final int MAP_TYPE_NORMAL
+    public static final int MAP_TYPE_SATELLITE
+    public static final int MAP_TYPE_TERRAIN
+    public static final int MAP_TYPE_HYBRID
+    private com.google.android.gms.maps.UiSettings fR
+    public final com.google.android.gms.maps.model.CameraPosition getCameraPosition()
+    public final float getMaxZoomLevel()
+    public final float getMinZoomLevel()
+    public final void animateCamera(com.google.android.gms.maps.CameraUpdate)
+    public final void animateCamera(com.google.android.gms.maps.CameraUpdate,com.google.android.gms.maps.GoogleMap$CancelableCallback)
+    public final void stopAnimation()
+    public final com.google.android.gms.maps.model.Polyline addPolyline(com.google.android.gms.maps.model.PolylineOptions)
+    public final com.google.android.gms.maps.model.Polygon addPolygon(com.google.android.gms.maps.model.PolygonOptions)
+    public final com.google.android.gms.maps.model.GroundOverlay addGroundOverlay(com.google.android.gms.maps.model.GroundOverlayOptions)
+    public final com.google.android.gms.maps.model.TileOverlay addTileOverlay(com.google.android.gms.maps.model.TileOverlayOptions)
+    public final int getMapType()
+    public final void setMapType(int)
+    public final boolean isTrafficEnabled()
+    public final void setTrafficEnabled(boolean)
+    public final boolean isIndoorEnabled()
+    public final boolean setIndoorEnabled(boolean)
+    public final boolean isMyLocationEnabled()
+    public final void setLocationSource(com.google.android.gms.maps.LocationSource)
+    public final com.google.android.gms.maps.UiSettings getUiSettings()
+    public final com.google.android.gms.maps.Projection getProjection()
+    public final void setOnCameraChangeListener(com.google.android.gms.maps.GoogleMap$OnCameraChangeListener)
+    public final void setOnMapClickListener(com.google.android.gms.maps.GoogleMap$OnMapClickListener)
+    public final void setOnMapLongClickListener(com.google.android.gms.maps.GoogleMap$OnMapLongClickListener)
+    public final void setOnMarkerClickListener(com.google.android.gms.maps.GoogleMap$OnMarkerClickListener)
+    public final void setOnMarkerDragListener(com.google.android.gms.maps.GoogleMap$OnMarkerDragListener)
+    public final void setOnInfoWindowClickListener(com.google.android.gms.maps.GoogleMap$OnInfoWindowClickListener)
+    public final void setInfoWindowAdapter(com.google.android.gms.maps.GoogleMap$InfoWindowAdapter)
+    public final void setOnMyLocationChangeListener(com.google.android.gms.maps.GoogleMap$OnMyLocationChangeListener)
+com.google.android.gms.maps.GoogleMap$1
+com.google.android.gms.maps.GoogleMap$2
+com.google.android.gms.maps.GoogleMap$2$1
+com.google.android.gms.maps.GoogleMap$3
+com.google.android.gms.maps.GoogleMap$4
+com.google.android.gms.maps.GoogleMap$5
+com.google.android.gms.maps.GoogleMap$6
+com.google.android.gms.maps.GoogleMap$7
+com.google.android.gms.maps.GoogleMap$8
+com.google.android.gms.maps.GoogleMap$9
+com.google.android.gms.maps.GoogleMap$InfoWindowAdapter
+com.google.android.gms.maps.GoogleMap$OnCameraChangeListener
+com.google.android.gms.maps.GoogleMap$OnInfoWindowClickListener
+com.google.android.gms.maps.GoogleMap$OnMapClickListener
+com.google.android.gms.maps.GoogleMap$OnMapLongClickListener
+com.google.android.gms.maps.GoogleMap$OnMarkerClickListener
+com.google.android.gms.maps.GoogleMap$OnMarkerDragListener
+com.google.android.gms.maps.GoogleMap$OnMyLocationChangeListener
+com.google.android.gms.maps.GoogleMapOptions:
+    public java.lang.Boolean getZOrderOnTop()
+    public java.lang.Boolean getUseViewLifecycleInFragment()
+    public java.lang.Boolean getZoomControlsEnabled()
+    public java.lang.Boolean getCompassEnabled()
+    public java.lang.Boolean getScrollGesturesEnabled()
+    public java.lang.Boolean getZoomGesturesEnabled()
+    public java.lang.Boolean getTiltGesturesEnabled()
+    public java.lang.Boolean getRotateGesturesEnabled()
+com.google.android.gms.maps.GoogleMapOptionsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.LocationSource
+com.google.android.gms.maps.LocationSource$OnLocationChangedListener
+com.google.android.gms.maps.MapFragment
+com.google.android.gms.maps.MapFragment$a
+com.google.android.gms.maps.MapFragment$b
+com.google.android.gms.maps.MapView
+com.google.android.gms.maps.MapView$a
+com.google.android.gms.maps.MapView$b
+com.google.android.gms.maps.MapsInitializer:
+    private MapsInitializer()
+com.google.android.gms.maps.Projection
+com.google.android.gms.maps.SupportMapFragment:
+    public static com.google.android.gms.maps.SupportMapFragment newInstance()
+    public static com.google.android.gms.maps.SupportMapFragment newInstance(com.google.android.gms.maps.GoogleMapOptions)
+    public void setArguments(android.os.Bundle)
+com.google.android.gms.maps.UiSettings
+com.google.android.gms.maps.internal.ICameraUpdateFactoryDelegate$a:
+    public ICameraUpdateFactoryDelegate$a()
+com.google.android.gms.maps.internal.IGoogleMapDelegate$a:
+    public IGoogleMapDelegate$a()
+com.google.android.gms.maps.internal.ILocationSourceDelegate$a:
+    public ILocationSourceDelegate$a()
+com.google.android.gms.maps.internal.IMapFragmentDelegate$a:
+    public IMapFragmentDelegate$a()
+com.google.android.gms.maps.internal.IMapViewDelegate$a:
+    public IMapViewDelegate$a()
+com.google.android.gms.maps.internal.IProjectionDelegate$a:
+    public IProjectionDelegate$a()
+com.google.android.gms.maps.internal.IUiSettingsDelegate$a:
+    public IUiSettingsDelegate$a()
+com.google.android.gms.maps.model.BitmapDescriptorFactory:
+    public static final float HUE_RED
+    public static final float HUE_ORANGE
+    public static final float HUE_YELLOW
+    public static final float HUE_GREEN
+    public static final float HUE_CYAN
+    public static final float HUE_AZURE
+    public static final float HUE_BLUE
+    public static final float HUE_VIOLET
+    public static final float HUE_MAGENTA
+    public static final float HUE_ROSE
+    private BitmapDescriptorFactory()
+    public static com.google.android.gms.maps.model.BitmapDescriptor fromAsset(java.lang.String)
+    public static com.google.android.gms.maps.model.BitmapDescriptor fromFile(java.lang.String)
+    public static com.google.android.gms.maps.model.BitmapDescriptor fromPath(java.lang.String)
+    public static com.google.android.gms.maps.model.BitmapDescriptor defaultMarker()
+    public static com.google.android.gms.maps.model.BitmapDescriptor defaultMarker(float)
+    public static com.google.android.gms.maps.model.BitmapDescriptor fromBitmap(android.graphics.Bitmap)
+com.google.android.gms.maps.model.CameraPosition:
+    public static final com.google.android.gms.maps.model.CameraPosition fromLatLngZoom(com.google.android.gms.maps.model.LatLng,float)
+    public static com.google.android.gms.maps.model.CameraPosition$Builder builder(com.google.android.gms.maps.model.CameraPosition)
+com.google.android.gms.maps.model.CameraPosition$Builder:
+    public CameraPosition$Builder(com.google.android.gms.maps.model.CameraPosition)
+com.google.android.gms.maps.model.CameraPositionCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.Circle:
+    public void remove()
+    public java.lang.String getId()
+    public void setCenter(com.google.android.gms.maps.model.LatLng)
+    public com.google.android.gms.maps.model.LatLng getCenter()
+    public void setRadius(double)
+    public double getRadius()
+    public void setStrokeWidth(float)
+    public float getStrokeWidth()
+    public void setStrokeColor(int)
+    public int getStrokeColor()
+    public void setFillColor(int)
+    public int getFillColor()
+    public void setZIndex(float)
+    public float getZIndex()
+    public void setVisible(boolean)
+    public boolean isVisible()
+com.google.android.gms.maps.model.CircleOptions:
+    public com.google.android.gms.maps.model.CircleOptions fillColor(int)
+    public com.google.android.gms.maps.model.CircleOptions zIndex(float)
+    public com.google.android.gms.maps.model.CircleOptions visible(boolean)
+com.google.android.gms.maps.model.CircleOptionsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.GroundOverlay
+com.google.android.gms.maps.model.GroundOverlayOptions:
+    public static final float NO_DIMENSION
+    public com.google.android.gms.maps.model.GroundOverlayOptions image(com.google.android.gms.maps.model.BitmapDescriptor)
+    public com.google.android.gms.maps.model.GroundOverlayOptions anchor(float,float)
+    public com.google.android.gms.maps.model.GroundOverlayOptions position(com.google.android.gms.maps.model.LatLng,float)
+    public com.google.android.gms.maps.model.GroundOverlayOptions position(com.google.android.gms.maps.model.LatLng,float,float)
+    private com.google.android.gms.maps.model.GroundOverlayOptions a(com.google.android.gms.maps.model.LatLng,float,float)
+    public com.google.android.gms.maps.model.GroundOverlayOptions positionFromBounds(com.google.android.gms.maps.model.LatLngBounds)
+    public com.google.android.gms.maps.model.GroundOverlayOptions bearing(float)
+    public com.google.android.gms.maps.model.GroundOverlayOptions zIndex(float)
+    public com.google.android.gms.maps.model.GroundOverlayOptions visible(boolean)
+    public com.google.android.gms.maps.model.GroundOverlayOptions transparency(float)
+    public com.google.android.gms.maps.model.BitmapDescriptor getImage()
+com.google.android.gms.maps.model.GroundOverlayOptionsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.LatLngBounds:
+    public LatLngBounds(com.google.android.gms.maps.model.LatLng,com.google.android.gms.maps.model.LatLng)
+    public static com.google.android.gms.maps.model.LatLngBounds$Builder builder()
+    public boolean contains(com.google.android.gms.maps.model.LatLng)
+    public com.google.android.gms.maps.model.LatLngBounds including(com.google.android.gms.maps.model.LatLng)
+    private static double a(double,double)
+    private static double b(double,double)
+    private boolean b(double)
+    private boolean a(double)
+    static synthetic double c(double,double)
+    static synthetic double d(double,double)
+com.google.android.gms.maps.model.LatLngBounds$Builder
+com.google.android.gms.maps.model.LatLngBoundsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.LatLngCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.Marker:
+    public void remove()
+    public java.lang.String getId()
+    public void setPosition(com.google.android.gms.maps.model.LatLng)
+    public com.google.android.gms.maps.model.LatLng getPosition()
+    public void setTitle(java.lang.String)
+    public java.lang.String getTitle()
+    public void setSnippet(java.lang.String)
+    public java.lang.String getSnippet()
+    public void setDraggable(boolean)
+    public boolean isDraggable()
+    public void showInfoWindow()
+    public void hideInfoWindow()
+    public boolean isInfoWindowShown()
+    public void setVisible(boolean)
+    public boolean isVisible()
+com.google.android.gms.maps.model.MarkerOptions:
+    public com.google.android.gms.maps.model.MarkerOptions anchor(float,float)
+    public com.google.android.gms.maps.model.MarkerOptions snippet(java.lang.String)
+    public com.google.android.gms.maps.model.MarkerOptions draggable(boolean)
+    public com.google.android.gms.maps.model.MarkerOptions visible(boolean)
+    public com.google.android.gms.maps.model.BitmapDescriptor getIcon()
+com.google.android.gms.maps.model.MarkerOptionsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.Polygon
+com.google.android.gms.maps.model.PolygonOptions:
+    public com.google.android.gms.maps.model.PolygonOptions add(com.google.android.gms.maps.model.LatLng)
+    public varargs com.google.android.gms.maps.model.PolygonOptions add(com.google.android.gms.maps.model.LatLng[])
+    public com.google.android.gms.maps.model.PolygonOptions addAll(java.lang.Iterable)
+    public com.google.android.gms.maps.model.PolygonOptions addHole(java.lang.Iterable)
+    public com.google.android.gms.maps.model.PolygonOptions strokeWidth(float)
+    public com.google.android.gms.maps.model.PolygonOptions strokeColor(int)
+    public com.google.android.gms.maps.model.PolygonOptions fillColor(int)
+    public com.google.android.gms.maps.model.PolygonOptions zIndex(float)
+    public com.google.android.gms.maps.model.PolygonOptions visible(boolean)
+    public com.google.android.gms.maps.model.PolygonOptions geodesic(boolean)
+    public java.util.List getHoles()
+com.google.android.gms.maps.model.PolygonOptionsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.Polyline
+com.google.android.gms.maps.model.PolylineOptions:
+    public com.google.android.gms.maps.model.PolylineOptions add(com.google.android.gms.maps.model.LatLng)
+    public varargs com.google.android.gms.maps.model.PolylineOptions add(com.google.android.gms.maps.model.LatLng[])
+    public com.google.android.gms.maps.model.PolylineOptions addAll(java.lang.Iterable)
+    public com.google.android.gms.maps.model.PolylineOptions width(float)
+    public com.google.android.gms.maps.model.PolylineOptions color(int)
+    public com.google.android.gms.maps.model.PolylineOptions zIndex(float)
+    public com.google.android.gms.maps.model.PolylineOptions visible(boolean)
+    public com.google.android.gms.maps.model.PolylineOptions geodesic(boolean)
+com.google.android.gms.maps.model.PolylineOptionsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.TileCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.TileOverlay
+com.google.android.gms.maps.model.TileOverlayOptions:
+    public com.google.android.gms.maps.model.TileOverlayOptions tileProvider(com.google.android.gms.maps.model.TileProvider)
+    public com.google.android.gms.maps.model.TileOverlayOptions zIndex(float)
+    public com.google.android.gms.maps.model.TileOverlayOptions visible(boolean)
+    public com.google.android.gms.maps.model.TileProvider getTileProvider()
+com.google.android.gms.maps.model.TileOverlayOptions$1:
+    public com.google.android.gms.maps.model.Tile getTile(int,int,int)
+com.google.android.gms.maps.model.TileOverlayOptions$2
+com.google.android.gms.maps.model.TileOverlayOptionsCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.TileProvider:
+    public abstract com.google.android.gms.maps.model.Tile getTile(int,int,int)
+com.google.android.gms.maps.model.UrlTileProvider
+com.google.android.gms.maps.model.VisibleRegion:
+    public VisibleRegion(com.google.android.gms.maps.model.LatLng,com.google.android.gms.maps.model.LatLng,com.google.android.gms.maps.model.LatLng,com.google.android.gms.maps.model.LatLng,com.google.android.gms.maps.model.LatLngBounds)
+com.google.android.gms.maps.model.VisibleRegionCreator:
+    public static final int CONTENT_DESCRIPTION
+com.google.android.gms.maps.model.internal.IPolylineDelegate$a:
+    public IPolylineDelegate$a()
+com.google.android.gms.panorama.PanoramaClient
+com.google.android.gms.panorama.PanoramaClient$OnPanoramaInfoLoadedListener
+com.google.android.gms.panorama.PanoramaClient$a
+com.google.android.gms.plus.GooglePlusUtil
+com.google.android.gms.plus.PlusClient
+com.google.android.gms.plus.PlusClient$1
+com.google.android.gms.plus.PlusClient$Builder
+com.google.android.gms.plus.PlusClient$OnAccessRevokedListener
+com.google.android.gms.plus.PlusClient$OnMomentsLoadedListener
+com.google.android.gms.plus.PlusClient$OnPeopleLoadedListener
+com.google.android.gms.plus.PlusClient$OnPersonLoadedListener
+com.google.android.gms.plus.PlusClient$a
+com.google.android.gms.plus.PlusClient$b
+com.google.android.gms.plus.PlusOneButton
+com.google.android.gms.plus.PlusOneButton$OnPlusOneClickListener
+com.google.android.gms.plus.PlusShare
+com.google.android.gms.plus.PlusShare$Builder
+com.google.android.gms.plus.model.apps.ApplicationBuffer
+com.google.android.gms.plus.model.moments.ItemScope
+com.google.android.gms.plus.model.moments.ItemScope$Builder
+com.google.android.gms.plus.model.moments.Moment
+com.google.android.gms.plus.model.moments.Moment$Builder
+com.google.android.gms.plus.model.moments.MomentBuffer
+com.google.android.gms.plus.model.people.Person
+com.google.android.gms.plus.model.people.Person$AgeRange
+com.google.android.gms.plus.model.people.Person$Collection
+com.google.android.gms.plus.model.people.Person$Cover
+com.google.android.gms.plus.model.people.Person$Cover$CoverInfo
+com.google.android.gms.plus.model.people.Person$Cover$CoverPhoto
+com.google.android.gms.plus.model.people.Person$Cover$Layout
+com.google.android.gms.plus.model.people.Person$Emails
+com.google.android.gms.plus.model.people.Person$Emails$Type
+com.google.android.gms.plus.model.people.Person$Gender
+com.google.android.gms.plus.model.people.Person$Image
+com.google.android.gms.plus.model.people.Person$Name
+com.google.android.gms.plus.model.people.Person$ObjectType
+com.google.android.gms.plus.model.people.Person$OrderBy
+com.google.android.gms.plus.model.people.Person$Organizations
+com.google.android.gms.plus.model.people.Person$Organizations$Type
+com.google.android.gms.plus.model.people.Person$PlacesLived
+com.google.android.gms.plus.model.people.Person$RelationshipStatus
+com.google.android.gms.plus.model.people.Person$Urls
+com.google.android.gms.plus.model.people.Person$Urls$Type
+com.google.android.gms.plus.model.people.PersonBuffer
+com.locution.hereyak.BuildConfig
+com.locution.hereyak.Constants:
+    public static final java.lang.String PREFS_FILE_NAME
+    public static final java.lang.String UTF8
+    public static final int RANGE_LIMIT
+    public static final int RANGE_FOR_NEW_LOCATION
+    5:5:public Constants()
+com.locution.hereyak.MainActivity:
+    private static final int TWO_MINUTES
+    private static final java.lang.String SAVE_FILE_NAME
+    private static final int ACTIVITY_SHOW_ANDROID_SETTINGS
+    private static final int ACTIVITY_SHOW_MAP
+com.locution.hereyak.MainActivitySaveObject:
+    private static final long serialVersionUID
+com.locution.hereyak.Manifest
+com.locution.hereyak.Manifest$permission
+com.locution.hereyak.ObscureData:
+    13:13:public ObscureData()
+com.locution.hereyak.R
+com.locution.hereyak.R$attr
+com.locution.hereyak.R$color
+com.locution.hereyak.R$dimen
+com.locution.hereyak.R$drawable
+com.locution.hereyak.R$id
+com.locution.hereyak.R$layout
+com.locution.hereyak.R$menu
+com.locution.hereyak.R$string
+com.locution.hereyak.R$style
+com.locution.hereyak.R$styleable
+com.locution.hereyak.YakAdapter:
+    63:63:public int getLastItemAddedIndex()
+    67:70:public int addQueueItem(com.locution.hereyak.YakMessage)
+    74:75:public void setQueueItemToFailed(int)
+    78:79:public void setQueueItemToSent(int)
+    82:89:public void removeSentQueueItems()
+com.locution.hereyak.YakHttpClient:
+    private static final java.lang.String host
+    private static final java.lang.String client_id
+com.locution.hereyak.YakMessage:
+    private static final long serialVersionUID
+    56:56:public java.lang.String getUserId()
+    64:64:public java.lang.String getLikes()
+org.joda.time.Chronology:
+    public abstract long getDateTimeMillis(int,int,int,int)
+    public abstract long getDateTimeMillis(int,int,int,int,int,int,int)
+    public abstract long getDateTimeMillis(long,int,int,int,int)
+    public abstract void validate(org.joda.time.ReadablePartial,int[])
+    public abstract int[] get(org.joda.time.ReadablePartial,long)
+    public abstract long set(org.joda.time.ReadablePartial,long)
+    public abstract int[] get(org.joda.time.ReadablePeriod,long,long)
+    public abstract int[] get(org.joda.time.ReadablePeriod,long)
+    public abstract long add(org.joda.time.ReadablePeriod,long,int)
+    public abstract long add(long,long,int)
+    public abstract java.lang.String toString()
+org.joda.time.DateMidnight
+org.joda.time.DateMidnight$Property
+org.joda.time.DateTime:
+    private static final long serialVersionUID
+    89:89:public static org.joda.time.DateTime now()
+    101:104:public static org.joda.time.DateTime now(org.joda.time.DateTimeZone)
+    116:119:public static org.joda.time.DateTime now(org.joda.time.Chronology)
+    133:133:public static org.joda.time.DateTime parse(java.lang.String)
+    144:144:public static org.joda.time.DateTime parse(java.lang.String,org.joda.time.format.DateTimeFormatter)
+    168:169:public DateTime(org.joda.time.DateTimeZone)
+    182:183:public DateTime(org.joda.time.Chronology)
+    193:194:public DateTime(long)
+    206:207:public DateTime(long,org.joda.time.DateTimeZone)
+    241:242:public DateTime(java.lang.Object)
+    265:266:public DateTime(java.lang.Object,org.joda.time.DateTimeZone)
+    286:287:public DateTime(java.lang.Object,org.joda.time.Chronology)
+    307:308:public DateTime(int,int,int,int,int)
+    331:333:public DateTime(int,int,int,int,int,org.joda.time.DateTimeZone)
+    357:359:public DateTime(int,int,int,int,int,org.joda.time.Chronology)
+    381:382:public DateTime(int,int,int,int,int,int)
+    407:409:public DateTime(int,int,int,int,int,int,org.joda.time.DateTimeZone)
+    435:437:public DateTime(int,int,int,int,int,int,org.joda.time.Chronology)
+    460:461:public DateTime(int,int,int,int,int,int,int)
+    487:489:public DateTime(int,int,int,int,int,int,int,org.joda.time.DateTimeZone)
+    516:518:public DateTime(int,int,int,int,int,int,int,org.joda.time.Chronology)
+    527:527:public org.joda.time.DateTime toDateTime()
+    537:540:public org.joda.time.DateTime toDateTimeISO()
+    550:554:public org.joda.time.DateTime toDateTime(org.joda.time.DateTimeZone)
+    564:568:public org.joda.time.DateTime toDateTime(org.joda.time.Chronology)
+    582:582:public org.joda.time.DateTime withMillis(long)
+    639:646:public org.joda.time.DateTime withZoneRetainFields(org.joda.time.DateTimeZone)
+    665:666:public org.joda.time.DateTime withEarlierOffsetAtOverlap()
+    685:686:public org.joda.time.DateTime withLaterOffsetAtOverlap()
+    709:714:public org.joda.time.DateTime withDate(int,int,int)
+    737:743:public org.joda.time.DateTime withTime(int,int,int,int)
+    759:759:public org.joda.time.DateTime withTimeAtStartOfDay()
+    776:779:public org.joda.time.DateTime withFields(org.joda.time.ReadablePartial)
+    802:806:public org.joda.time.DateTime withField(org.joda.time.DateTimeFieldType,int)
+    828:835:public org.joda.time.DateTime withFieldAdded(org.joda.time.DurationFieldType,int)
+    850:854:public org.joda.time.DateTime withDurationAdded(long,int)
+    868:871:public org.joda.time.DateTime withDurationAdded(org.joda.time.ReadableDuration,int)
+    890:894:public org.joda.time.DateTime withPeriodAdded(org.joda.time.ReadablePeriod,int)
+    909:909:public org.joda.time.DateTime plus(long)
+    923:923:public org.joda.time.DateTime plus(org.joda.time.ReadableDuration)
+    949:949:public org.joda.time.DateTime plus(org.joda.time.ReadablePeriod)
+    976:980:public org.joda.time.DateTime plusYears(int)
+    1006:1010:public org.joda.time.DateTime plusMonths(int)
+    1032:1036:public org.joda.time.DateTime plusWeeks(int)
+    1067:1071:public org.joda.time.DateTime plusDays(int)
+    1098:1102:public org.joda.time.DateTime plusHours(int)
+    1125:1129:public org.joda.time.DateTime plusMinutes(int)
+    1152:1156:public org.joda.time.DateTime plusSeconds(int)
+    1178:1182:public org.joda.time.DateTime plusMillis(int)
+    1197:1197:public org.joda.time.DateTime minus(long)
+    1211:1211:public org.joda.time.DateTime minus(org.joda.time.ReadableDuration)
+    1238:1238:public org.joda.time.DateTime minus(org.joda.time.ReadablePeriod)
+    1265:1269:public org.joda.time.DateTime minusYears(int)
+    1295:1299:public org.joda.time.DateTime minusMonths(int)
+    1321:1325:public org.joda.time.DateTime minusWeeks(int)
+    1356:1360:public org.joda.time.DateTime minusDays(int)
+    1388:1392:public org.joda.time.DateTime minusHours(int)
+    1415:1419:public org.joda.time.DateTime minusMinutes(int)
+    1442:1446:public org.joda.time.DateTime minusSeconds(int)
+    1469:1473:public org.joda.time.DateTime minusMillis(int)
+    1485:1492:public org.joda.time.DateTime$Property property(org.joda.time.DateTimeFieldType)
+    1503:1503:public org.joda.time.DateMidnight toDateMidnight()
+    1515:1515:public org.joda.time.YearMonthDay toYearMonthDay()
+    1527:1527:public org.joda.time.TimeOfDay toTimeOfDay()
+    1538:1538:public org.joda.time.LocalDateTime toLocalDateTime()
+    1549:1549:public org.joda.time.LocalDate toLocalDate()
+    1560:1560:public org.joda.time.LocalTime toLocalTime()
+    1577:1577:public org.joda.time.DateTime withEra(int)
+    1593:1593:public org.joda.time.DateTime withCenturyOfEra(int)
+    1609:1609:public org.joda.time.DateTime withYearOfEra(int)
+    1625:1625:public org.joda.time.DateTime withYearOfCentury(int)
+    1641:1641:public org.joda.time.DateTime withYear(int)
+    1663:1663:public org.joda.time.DateTime withWeekyear(int)
+    1679:1679:public org.joda.time.DateTime withMonthOfYear(int)
+    1700:1700:public org.joda.time.DateTime withWeekOfWeekyear(int)
+    1716:1716:public org.joda.time.DateTime withDayOfYear(int)
+    1732:1732:public org.joda.time.DateTime withDayOfMonth(int)
+    1748:1748:public org.joda.time.DateTime withDayOfWeek(int)
+    1765:1765:public org.joda.time.DateTime withHourOfDay(int)
+    1781:1781:public org.joda.time.DateTime withMinuteOfHour(int)
+    1797:1797:public org.joda.time.DateTime withSecondOfMinute(int)
+    1813:1813:public org.joda.time.DateTime withMillisOfSecond(int)
+    1829:1829:public org.joda.time.DateTime withMillisOfDay(int)
+    1840:1840:public org.joda.time.DateTime$Property era()
+    1849:1849:public org.joda.time.DateTime$Property centuryOfEra()
+    1858:1858:public org.joda.time.DateTime$Property yearOfCentury()
+    1867:1867:public org.joda.time.DateTime$Property yearOfEra()
+    1876:1876:public org.joda.time.DateTime$Property year()
+    1885:1885:public org.joda.time.DateTime$Property weekyear()
+    1894:1894:public org.joda.time.DateTime$Property monthOfYear()
+    1903:1903:public org.joda.time.DateTime$Property weekOfWeekyear()
+    1912:1912:public org.joda.time.DateTime$Property dayOfYear()
+    1921:1921:public org.joda.time.DateTime$Property dayOfMonth()
+    1930:1930:public org.joda.time.DateTime$Property dayOfWeek()
+    1941:1941:public org.joda.time.DateTime$Property hourOfDay()
+    1950:1950:public org.joda.time.DateTime$Property minuteOfDay()
+    1959:1959:public org.joda.time.DateTime$Property minuteOfHour()
+    1968:1968:public org.joda.time.DateTime$Property secondOfDay()
+    1977:1977:public org.joda.time.DateTime$Property secondOfMinute()
+    1986:1986:public org.joda.time.DateTime$Property millisOfDay()
+    1995:1995:public org.joda.time.DateTime$Property millisOfSecond()
+org.joda.time.DateTime$Property
+org.joda.time.DateTimeComparator
+org.joda.time.DateTimeConstants
+org.joda.time.DateTimeField:
+    public abstract boolean isLenient()
+    public abstract java.lang.String getAsText(long)
+    public abstract java.lang.String getAsText(org.joda.time.ReadablePartial,int,java.util.Locale)
+    public abstract java.lang.String getAsText(org.joda.time.ReadablePartial,java.util.Locale)
+    public abstract java.lang.String getAsShortText(long)
+    public abstract java.lang.String getAsShortText(org.joda.time.ReadablePartial,int,java.util.Locale)
+    public abstract java.lang.String getAsShortText(org.joda.time.ReadablePartial,java.util.Locale)
+    public abstract int[] add(org.joda.time.ReadablePartial,int,int[],int)
+    public abstract int[] addWrapPartial(org.joda.time.ReadablePartial,int,int[],int)
+    public abstract long addWrapField(long,int)
+    public abstract int[] addWrapField(org.joda.time.ReadablePartial,int,int[],int)
+    public abstract int getDifference(long,long)
+    public abstract long getDifferenceAsLong(long,long)
+    public abstract int[] set(org.joda.time.ReadablePartial,int,int[],int)
+    public abstract long set(long,java.lang.String)
+    public abstract int[] set(org.joda.time.ReadablePartial,int,int[],java.lang.String,java.util.Locale)
+    public abstract int getLeapAmount(long)
+    public abstract int getMinimumValue(long)
+    public abstract int getMinimumValue(org.joda.time.ReadablePartial)
+    public abstract int getMinimumValue(org.joda.time.ReadablePartial,int[])
+    public abstract int getMaximumValue(org.joda.time.ReadablePartial)
+    public abstract int getMaximumValue(org.joda.time.ReadablePartial,int[])
+    public abstract int getMaximumShortTextLength(java.util.Locale)
+    public abstract java.lang.String toString()
+org.joda.time.DateTimeFieldType:
+    private static final long serialVersionUID
+    static final byte ERA
+    static final byte YEAR_OF_ERA
+    static final byte CENTURY_OF_ERA
+    static final byte YEAR_OF_CENTURY
+    static final byte YEAR
+    static final byte DAY_OF_YEAR
+    static final byte MONTH_OF_YEAR
+    static final byte DAY_OF_MONTH
+    static final byte WEEKYEAR_OF_CENTURY
+    static final byte WEEKYEAR
+    static final byte WEEK_OF_WEEKYEAR
+    static final byte DAY_OF_WEEK
+    static final byte HALFDAY_OF_DAY
+    static final byte HOUR_OF_HALFDAY
+    static final byte CLOCKHOUR_OF_HALFDAY
+    static final byte CLOCKHOUR_OF_DAY
+    static final byte HOUR_OF_DAY
+    static final byte MINUTE_OF_DAY
+    static final byte MINUTE_OF_HOUR
+    static final byte SECOND_OF_DAY
+    static final byte SECOND_OF_MINUTE
+    static final byte MILLIS_OF_DAY
+    static final byte MILLIS_OF_SECOND
+    410:410:public boolean isSupported(org.joda.time.Chronology)
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$000()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$100()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$200()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$300()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$400()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$500()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$600()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$700()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$800()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$900()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1000()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1100()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1200()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1300()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1400()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1500()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1600()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1700()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1800()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$1900()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$2000()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$2100()
+    41:41:static synthetic org.joda.time.DateTimeFieldType access$2200()
+org.joda.time.DateTimeFieldType$StandardDateTimeFieldType:
+    private static final long serialVersionUID
+    541:590:private java.lang.Object readResolve()
+org.joda.time.DateTimeUtils:
+    73:74:protected DateTimeUtils()
+    98:100:public static final void setCurrentMillisSystem()
+    112:114:public static final void setCurrentMillisFixed(long)
+    127:133:public static final void setCurrentMillisOffset(long)
+    146:151:public static final void setCurrentMillisProvider(org.joda.time.DateTimeUtils$MillisProvider)
+    159:163:private static void checkPermission()
+    217:226:public static final org.joda.time.Chronology getIntervalChronology(org.joda.time.ReadableInstant,org.joda.time.ReadableInstant)
+    241:248:public static final org.joda.time.Chronology getIntervalChronology(org.joda.time.ReadableInterval)
+    264:268:public static final org.joda.time.ReadableInterval getReadableInterval(org.joda.time.ReadableInterval)
+    299:302:public static final org.joda.time.DateTimeZone getZone(org.joda.time.DateTimeZone)
+    316:319:public static final org.joda.time.PeriodType getPeriodType(org.joda.time.PeriodType)
+    333:336:public static final long getDurationMillis(org.joda.time.ReadableDuration)
+    364:377:public static final boolean isContiguous(org.joda.time.ReadablePartial)
+    424:425:public static final void setDefaultTimeZoneNames(java.util.Map)
+    451:452:public static final double toJulianDay(long)
+    471:471:public static final long toJulianDayNumber(long)
+    484:485:public static final long fromJulianDay(double)
+org.joda.time.DateTimeUtils$FixedMillisProvider
+org.joda.time.DateTimeUtils$OffsetMillisProvider
+org.joda.time.DateTimeZone:
+    private static final long serialVersionUID
+    174:184:public static void setDefault(org.joda.time.DateTimeZone)
+    237:237:public static org.joda.time.DateTimeZone forOffsetHours(int)
+    254:272:public static org.joda.time.DateTimeZone forOffsetHoursMinutes(int,int)
+    387:387:public static org.joda.time.tz.Provider getProvider()
+    401:406:public static void setProvider(org.joda.time.tz.Provider)
+    486:486:public static org.joda.time.tz.NameProvider getNameProvider()
+    500:505:public static void setNameProvider(org.joda.time.tz.NameProvider)
+    729:729:public final java.lang.String getShortName(long)
+    769:769:public final java.lang.String getName(long)
+    813:816:public final int getOffset(org.joda.time.ReadableInstant)
+    public abstract int getStandardOffset(long)
+    844:844:public boolean isStandardOffset(long)
+    1026:1033:public long getMillisKeepLocal(org.joda.time.DateTimeZone,long)
+    1143:1150:public boolean isLocalDateTimeGap(org.joda.time.LocalDateTime)
+    1165:1189:public long adjustOffset(long,boolean)
+    1231:1231:public java.util.TimeZone toTimeZone()
+    1266:1266:protected java.lang.Object writeReplace()
+org.joda.time.DateTimeZone$Stub
+org.joda.time.Days
+org.joda.time.Duration
+org.joda.time.DurationField:
+    public abstract java.lang.String getName()
+    public abstract int getValue(long)
+    public abstract long getValueAsLong(long)
+    public abstract int getValue(long,long)
+    public abstract long getValueAsLong(long,long)
+    public abstract long getMillis(int)
+    public abstract long getMillis(long)
+    public abstract long getMillis(int,long)
+    public abstract long getMillis(long,long)
+    209:212:public long subtract(long,int)
+    224:227:public long subtract(long,long)
+    public abstract int getDifference(long,long)
+    public abstract long getDifferenceAsLong(long,long)
+    public abstract java.lang.String toString()
+org.joda.time.DurationFieldType:
+    private static final long serialVersionUID
+    static final byte ERAS
+    static final byte CENTURIES
+    static final byte WEEKYEARS
+    static final byte YEARS
+    static final byte MONTHS
+    static final byte WEEKS
+    static final byte DAYS
+    static final byte HALFDAYS
+    static final byte HOURS
+    static final byte MINUTES
+    static final byte SECONDS
+    static final byte MILLIS
+    234:234:public boolean isSupported(org.joda.time.Chronology)
+org.joda.time.DurationFieldType$StandardDurationFieldType:
+    private static final long serialVersionUID
+    321:348:private java.lang.Object readResolve()
+org.joda.time.Hours
+org.joda.time.IllegalFieldValueException:
+    private static final long serialVersionUID
+    150:159:public IllegalFieldValueException(org.joda.time.DurationFieldType,java.lang.Number,java.lang.Number,java.lang.Number)
+    171:180:public IllegalFieldValueException(java.lang.String,java.lang.Number,java.lang.Number,java.lang.Number)
+    207:216:public IllegalFieldValueException(org.joda.time.DurationFieldType,java.lang.String)
+    225:234:public IllegalFieldValueException(java.lang.String,java.lang.String)
+    243:243:public org.joda.time.DateTimeFieldType getDateTimeFieldType()
+    252:252:public org.joda.time.DurationFieldType getDurationFieldType()
+    261:261:public java.lang.String getFieldName()
+    270:270:public java.lang.Number getIllegalNumberValue()
+    279:279:public java.lang.String getIllegalStringValue()
+    288:292:public java.lang.String getIllegalValueAsString()
+    301:301:public java.lang.Number getLowerBound()
+    310:310:public java.lang.Number getUpperBound()
+org.joda.time.IllegalInstantException:
+    private static final long serialVersionUID
+    80:86:public static boolean isIllegalInstant(java.lang.Throwable)
+org.joda.time.Instant:
+    private static final long serialVersionUID
+    73:73:public static org.joda.time.Instant now()
+    87:87:public static org.joda.time.Instant parse(java.lang.String)
+    98:98:public static org.joda.time.Instant parse(java.lang.String,org.joda.time.format.DateTimeFormatter)
+    132:135:public Instant(java.lang.Object)
+    144:144:public org.joda.time.Instant toInstant()
+    157:157:public org.joda.time.Instant withMillis(long)
+    171:175:public org.joda.time.Instant withDurationAdded(long,int)
+    189:192:public org.joda.time.Instant withDurationAdded(org.joda.time.ReadableDuration,int)
+    206:206:public org.joda.time.Instant plus(long)
+    219:219:public org.joda.time.Instant plus(org.joda.time.ReadableDuration)
+    233:233:public org.joda.time.Instant minus(long)
+    246:246:public org.joda.time.Instant minus(org.joda.time.ReadableDuration)
+    288:288:public org.joda.time.DateTime toDateTime()
+    315:315:public org.joda.time.DateTime toDateTimeISO()
+    334:334:public org.joda.time.MutableDateTime toMutableDateTime()
+    361:361:public org.joda.time.MutableDateTime toMutableDateTimeISO()
+org.joda.time.Interval
+org.joda.time.JodaTimePermission
+org.joda.time.LocalDate
+org.joda.time.LocalDate$Property
+org.joda.time.LocalDateTime
+org.joda.time.LocalDateTime$Property
+org.joda.time.LocalTime
+org.joda.time.LocalTime$Property
+org.joda.time.Minutes
+org.joda.time.MonthDay
+org.joda.time.MonthDay$Property
+org.joda.time.Months
+org.joda.time.MutableDateTime:
+    private static final long serialVersionUID
+    public static final int ROUND_NONE
+    public static final int ROUND_FLOOR
+    public static final int ROUND_CEILING
+    public static final int ROUND_HALF_FLOOR
+    public static final int ROUND_HALF_CEILING
+    public static final int ROUND_HALF_EVEN
+    106:106:public static org.joda.time.MutableDateTime now()
+    118:121:public static org.joda.time.MutableDateTime now(org.joda.time.DateTimeZone)
+    133:136:public static org.joda.time.MutableDateTime now(org.joda.time.Chronology)
+    150:150:public static org.joda.time.MutableDateTime parse(java.lang.String)
+    161:161:public static org.joda.time.MutableDateTime parse(java.lang.String,org.joda.time.format.DateTimeFormatter)
+    185:186:public MutableDateTime(org.joda.time.DateTimeZone)
+    199:200:public MutableDateTime(org.joda.time.Chronology)
+    210:211:public MutableDateTime(long)
+    237:238:public MutableDateTime(long,org.joda.time.Chronology)
+    257:258:public MutableDateTime(java.lang.Object)
+    280:281:public MutableDateTime(java.lang.Object,org.joda.time.DateTimeZone)
+    300:301:public MutableDateTime(java.lang.Object,org.joda.time.Chronology)
+    324:325:public MutableDateTime(int,int,int,int,int,int,int)
+    351:353:public MutableDateTime(int,int,int,int,int,int,int,org.joda.time.DateTimeZone)
+    380:382:public MutableDateTime(int,int,int,int,int,int,int,org.joda.time.Chronology)
+    392:392:public org.joda.time.DateTimeField getRoundingField()
+    402:402:public int getRoundingMode()
+    418:419:public void setRounding(org.joda.time.DateTimeField)
+    436:442:public void setRounding(org.joda.time.DateTimeField,int)
+    486:488:public void setMillis(org.joda.time.ReadableInstant)
+    498:499:public void add(long)
+    510:511:public void add(org.joda.time.ReadableDuration)
+    523:526:public void add(org.joda.time.ReadableDuration,int)
+    537:538:public void add(org.joda.time.ReadablePeriod)
+    550:553:public void add(org.joda.time.ReadablePeriod,int)
+    564:565:public void setChronology(org.joda.time.Chronology)
+    583:588:public void setZone(org.joda.time.DateTimeZone)
+    602:611:public void setZoneRetainFields(org.joda.time.DateTimeZone)
+    622:626:public void set(org.joda.time.DateTimeFieldType,int)
+    637:641:public void add(org.joda.time.DurationFieldType,int)
+    651:652:public void setYear(int)
+    661:662:public void addYears(int)
+    672:673:public void setWeekyear(int)
+    682:683:public void addWeekyears(int)
+    693:694:public void setMonthOfYear(int)
+    703:704:public void addMonths(int)
+    714:715:public void setWeekOfWeekyear(int)
+    724:725:public void addWeeks(int)
+    735:736:public void setDayOfYear(int)
+    745:746:public void setDayOfMonth(int)
+    755:756:public void setDayOfWeek(int)
+    765:766:public void addDays(int)
+    776:777:public void setHourOfDay(int)
+    786:787:public void addHours(int)
+    797:798:public void setMinuteOfDay(int)
+    807:808:public void setMinuteOfHour(int)
+    817:818:public void addMinutes(int)
+    828:829:public void setSecondOfDay(int)
+    838:839:public void setSecondOfMinute(int)
+    848:849:public void addSeconds(int)
+    859:860:public void setMillisOfDay(int)
+    869:870:public void setMillisOfSecond(int)
+    881:882:public void addMillis(int)
+    893:894:public void setDate(long)
+    907:917:public void setDate(org.joda.time.ReadableInstant)
+    932:935:public void setDate(int,int,int)
+    946:948:public void setTime(long)
+    958:965:public void setTime(org.joda.time.ReadableInstant)
+    982:985:public void setTime(int,int,int,int)
+    1007:1010:public void setDateTime(int,int,int,int,int,int,int)
+    1038:1038:public org.joda.time.MutableDateTime$Property era()
+    1047:1047:public org.joda.time.MutableDateTime$Property centuryOfEra()
+    1056:1056:public org.joda.time.MutableDateTime$Property yearOfCentury()
+    1065:1065:public org.joda.time.MutableDateTime$Property yearOfEra()
+    1074:1074:public org.joda.time.MutableDateTime$Property year()
+    1083:1083:public org.joda.time.MutableDateTime$Property weekyear()
+    1092:1092:public org.joda.time.MutableDateTime$Property monthOfYear()
+    1101:1101:public org.joda.time.MutableDateTime$Property weekOfWeekyear()
+    1110:1110:public org.joda.time.MutableDateTime$Property dayOfYear()
+    1121:1121:public org.joda.time.MutableDateTime$Property dayOfMonth()
+    1132:1132:public org.joda.time.MutableDateTime$Property dayOfWeek()
+    1142:1142:public org.joda.time.MutableDateTime$Property hourOfDay()
+    1151:1151:public org.joda.time.MutableDateTime$Property minuteOfDay()
+    1160:1160:public org.joda.time.MutableDateTime$Property minuteOfHour()
+    1169:1169:public org.joda.time.MutableDateTime$Property secondOfDay()
+    1178:1178:public org.joda.time.MutableDateTime$Property secondOfMinute()
+    1187:1187:public org.joda.time.MutableDateTime$Property millisOfDay()
+    1196:1196:public org.joda.time.MutableDateTime$Property millisOfSecond()
+    1206:1206:public org.joda.time.MutableDateTime copy()
+org.joda.time.MutableDateTime$Property:
+    private static final long serialVersionUID
+    1279:1281:private void writeObject(java.io.ObjectOutputStream)
+    1287:1290:private void readObject(java.io.ObjectInputStream)
+    1327:1327:public org.joda.time.MutableDateTime getMutableDateTime()
+    1339:1340:public org.joda.time.MutableDateTime add(int)
+    1351:1352:public org.joda.time.MutableDateTime add(long)
+    1363:1364:public org.joda.time.MutableDateTime addWrapField(int)
+    1390:1391:public org.joda.time.MutableDateTime set(java.lang.String,java.util.Locale)
+    1403:1404:public org.joda.time.MutableDateTime set(java.lang.String)
+    1415:1416:public org.joda.time.MutableDateTime roundFloor()
+    1426:1427:public org.joda.time.MutableDateTime roundCeiling()
+    1438:1439:public org.joda.time.MutableDateTime roundHalfFloor()
+    1450:1451:public org.joda.time.MutableDateTime roundHalfCeiling()
+    1462:1463:public org.joda.time.MutableDateTime roundHalfEven()
+org.joda.time.MutableInterval
+org.joda.time.MutablePeriod
+org.joda.time.Partial
+org.joda.time.Partial$Property
+org.joda.time.Period
+org.joda.time.PeriodType
+org.joda.time.ReadWritableDateTime:
+    public abstract void setYear(int)
+    public abstract void addYears(int)
+    public abstract void setWeekyear(int)
+    public abstract void addWeekyears(int)
+    public abstract void setMonthOfYear(int)
+    public abstract void addMonths(int)
+    public abstract void setWeekOfWeekyear(int)
+    public abstract void addWeeks(int)
+    public abstract void setDayOfYear(int)
+    public abstract void setDayOfMonth(int)
+    public abstract void setDayOfWeek(int)
+    public abstract void addDays(int)
+    public abstract void setHourOfDay(int)
+    public abstract void addHours(int)
+    public abstract void setMinuteOfDay(int)
+    public abstract void setMinuteOfHour(int)
+    public abstract void addMinutes(int)
+    public abstract void setSecondOfDay(int)
+    public abstract void setSecondOfMinute(int)
+    public abstract void addSeconds(int)
+    public abstract void setMillisOfDay(int)
+    public abstract void setMillisOfSecond(int)
+    public abstract void addMillis(int)
+    public abstract void setDate(int,int,int)
+    public abstract void setTime(int,int,int,int)
+    public abstract void setDateTime(int,int,int,int,int,int,int)
+org.joda.time.ReadWritableInstant:
+    public abstract void setMillis(long)
+    public abstract void setMillis(org.joda.time.ReadableInstant)
+    public abstract void setChronology(org.joda.time.Chronology)
+    public abstract void setZone(org.joda.time.DateTimeZone)
+    public abstract void setZoneRetainFields(org.joda.time.DateTimeZone)
+    public abstract void add(long)
+    public abstract void add(org.joda.time.ReadableDuration)
+    public abstract void add(org.joda.time.ReadableDuration,int)
+    public abstract void add(org.joda.time.ReadablePeriod)
+    public abstract void add(org.joda.time.ReadablePeriod,int)
+    public abstract void set(org.joda.time.DateTimeFieldType,int)
+    public abstract void add(org.joda.time.DurationFieldType,int)
+org.joda.time.ReadWritableInterval
+org.joda.time.ReadWritablePeriod
+org.joda.time.ReadableDateTime:
+    public abstract int getDayOfWeek()
+    public abstract int getDayOfMonth()
+    public abstract int getDayOfYear()
+    public abstract int getWeekOfWeekyear()
+    public abstract int getWeekyear()
+    public abstract int getMonthOfYear()
+    public abstract int getYear()
+    public abstract int getYearOfEra()
+    public abstract int getYearOfCentury()
+    public abstract int getCenturyOfEra()
+    public abstract int getEra()
+    public abstract int getMillisOfSecond()
+    public abstract int getMillisOfDay()
+    public abstract int getSecondOfMinute()
+    public abstract int getSecondOfDay()
+    public abstract int getMinuteOfHour()
+    public abstract int getMinuteOfDay()
+    public abstract int getHourOfDay()
+    public abstract org.joda.time.DateTime toDateTime()
+    public abstract org.joda.time.MutableDateTime toMutableDateTime()
+    public abstract java.lang.String toString(java.lang.String)
+    public abstract java.lang.String toString(java.lang.String,java.util.Locale)
+org.joda.time.ReadableDuration
+org.joda.time.ReadableInstant:
+    public abstract org.joda.time.DateTimeZone getZone()
+    public abstract int get(org.joda.time.DateTimeFieldType)
+    public abstract boolean isSupported(org.joda.time.DateTimeFieldType)
+    public abstract org.joda.time.Instant toInstant()
+    public abstract boolean isEqual(org.joda.time.ReadableInstant)
+    public abstract boolean isAfter(org.joda.time.ReadableInstant)
+    public abstract boolean isBefore(org.joda.time.ReadableInstant)
+    public abstract boolean equals(java.lang.Object)
+    public abstract int hashCode()
+    public abstract java.lang.String toString()
+org.joda.time.ReadableInterval
+org.joda.time.ReadablePartial
+org.joda.time.ReadablePeriod
+org.joda.time.Seconds
+org.joda.time.TimeOfDay
+org.joda.time.TimeOfDay$Property
+org.joda.time.Weeks
+org.joda.time.YearMonth
+org.joda.time.YearMonth$Property
+org.joda.time.YearMonthDay
+org.joda.time.YearMonthDay$Property
+org.joda.time.Years
+org.joda.time.base.AbstractDateTime:
+    66:69:public int get(org.joda.time.DateTimeFieldType)
+    79:79:public int getEra()
+    88:88:public int getCenturyOfEra()
+    97:97:public int getYearOfEra()
+    106:106:public int getYearOfCentury()
+    139:139:public int getMonthOfYear()
+    153:153:public int getWeekOfWeekyear()
+    162:162:public int getDayOfYear()
+    173:173:public int getDayOfMonth()
+    184:184:public int getDayOfWeek()
+    194:194:public int getHourOfDay()
+    203:203:public int getMinuteOfDay()
+    212:212:public int getMinuteOfHour()
+    221:221:public int getSecondOfDay()
+    230:230:public int getSecondOfMinute()
+    239:239:public int getMillisOfDay()
+    248:248:public int getMillisOfSecond()
+    270:276:public java.util.Calendar toCalendar(java.util.Locale)
+    294:297:public java.util.GregorianCalendar toGregorianCalendar()
+    308:311:public java.lang.String toString(java.lang.String)
+    322:325:public java.lang.String toString(java.lang.String,java.util.Locale)
+org.joda.time.base.AbstractDuration
+org.joda.time.base.AbstractInstant:
+    71:71:public org.joda.time.DateTimeZone getZone()
+    89:92:public int get(org.joda.time.DateTimeFieldType)
+    103:106:public boolean isSupported(org.joda.time.DateTimeFieldType)
+    124:127:public int get(org.joda.time.DateTimeField)
+    137:137:public org.joda.time.Instant toInstant()
+    146:146:public org.joda.time.DateTime toDateTime()
+    155:155:public org.joda.time.DateTime toDateTimeISO()
+    165:167:public org.joda.time.DateTime toDateTime(org.joda.time.DateTimeZone)
+    177:177:public org.joda.time.DateTime toDateTime(org.joda.time.Chronology)
+    191:191:public org.joda.time.MutableDateTime toMutableDateTime()
+    200:200:public org.joda.time.MutableDateTime toMutableDateTimeISO()
+    210:212:public org.joda.time.MutableDateTime toMutableDateTime(org.joda.time.DateTimeZone)
+    222:222:public org.joda.time.MutableDateTime toMutableDateTime(org.joda.time.Chronology)
+    235:235:public java.util.Date toDate()
+    323:323:public boolean isAfter(long)
+    333:333:public boolean isAfterNow()
+    344:345:public boolean isAfter(org.joda.time.ReadableInstant)
+    357:357:public boolean isBefore(long)
+    367:367:public boolean isBeforeNow()
+    378:379:public boolean isBefore(org.joda.time.ReadableInstant)
+    391:391:public boolean isEqual(long)
+    401:401:public boolean isEqualNow()
+    412:413:public boolean isEqual(org.joda.time.ReadableInstant)
+    436:439:public java.lang.String toString(org.joda.time.format.DateTimeFormatter)
+org.joda.time.base.AbstractInterval
+org.joda.time.base.AbstractPartial
+org.joda.time.base.AbstractPeriod
+org.joda.time.base.BaseDateTime:
+    private static final long serialVersionUID
+    73:74:public BaseDateTime(org.joda.time.DateTimeZone)
+    86:87:public BaseDateTime(org.joda.time.Chronology)
+    97:98:public BaseDateTime(long)
+    146:151:public BaseDateTime(java.lang.Object,org.joda.time.DateTimeZone)
+    168:172:public BaseDateTime(java.lang.Object,org.joda.time.Chronology)
+    195:197:public BaseDateTime(int,int,int,int,int,int,int)
+    223:225:public BaseDateTime(int,int,int,int,int,int,int,org.joda.time.DateTimeZone)
+    252:257:public BaseDateTime(int,int,int,int,int,int,int,org.joda.time.Chronology)
+    329:330:protected void setChronology(org.joda.time.Chronology)
+org.joda.time.base.BaseDuration
+org.joda.time.base.BaseInterval
+org.joda.time.base.BaseLocal
+org.joda.time.base.BasePartial
+org.joda.time.base.BasePeriod
+org.joda.time.base.BasePeriod$1
+org.joda.time.base.BaseSingleFieldPeriod
+org.joda.time.chrono.AssembledChronology:
+    private static final long serialVersionUID
+    118:122:public long getDateTimeMillis(int,int,int,int)
+    131:136:public long getDateTimeMillis(int,int,int,int,int,int,int)
+    146:151:public long getDateTimeMillis(long,int,int,int,int)
+    389:391:private void readObject(java.io.ObjectInputStream)
+org.joda.time.chrono.BaseChronology:
+    private static final long serialVersionUID
+    public abstract org.joda.time.DateTimeZone getZone()
+    public abstract org.joda.time.Chronology withUTC()
+    public abstract org.joda.time.Chronology withZone(org.joda.time.DateTimeZone)
+    102:105:public long getDateTimeMillis(int,int,int,int)
+    132:138:public long getDateTimeMillis(int,int,int,int,int,int,int)
+    163:166:public long getDateTimeMillis(long,int,int,int,int)
+    183:213:public void validate(org.joda.time.ReadablePartial,int[])
+    223:228:public int[] get(org.joda.time.ReadablePartial,long)
+    239:242:public long set(org.joda.time.ReadablePartial,long)
+    255:265:public int[] get(org.joda.time.ReadablePeriod,long,long)
+    276:289:public int[] get(org.joda.time.ReadablePeriod,long)
+    301:309:public long add(org.joda.time.ReadablePeriod,long,int)
+    322:326:public long add(long,long,int)
+    public abstract java.lang.String toString()
+org.joda.time.chrono.BasicChronology:
+    private static final long serialVersionUID
+    private static final int CACHE_SIZE
+    private static final int CACHE_MASK
+    153:159:public long getDateTimeMillis(int,int,int,int)
+    167:177:public long getDateTimeMillis(int,int,int,int,int,int,int)
+    603:606:long getDateMidnightMillis(int,int,int)
+    abstract long getYearDifference(long,long)
+    abstract int getDaysInMonthMax(int)
+    682:682:int getMaxMonth(int)
+org.joda.time.chrono.BasicChronology$HalfdayField:
+    private static final long serialVersionUID
+org.joda.time.chrono.BasicDayOfMonthDateTimeField:
+    private static final long serialVersionUID
+    67:75:public int getMaximumValue(org.joda.time.ReadablePartial)
+    79:92:public int getMaximumValue(org.joda.time.ReadablePartial,int[])
+    103:103:private java.lang.Object readResolve()
+org.joda.time.chrono.BasicDayOfYearDateTimeField:
+    private static final long serialVersionUID
+    73:77:public int getMaximumValue(org.joda.time.ReadablePartial)
+    81:88:public int getMaximumValue(org.joda.time.ReadablePartial,int[])
+    100:100:private java.lang.Object readResolve()
+org.joda.time.chrono.BasicFixedMonthChronology
+org.joda.time.chrono.BasicGJChronology:
+    private static final long serialVersionUID
+    private static final long FEB_29
+    129:129:int getDaysInMonthMax(int)
+    148:170:long getYearDifference(long,long)
+org.joda.time.chrono.BasicMonthOfYearDateTimeField:
+    private static final long serialVersionUID
+    private static final int MIN
+    59:59:public boolean isLenient()
+    206:223:public int[] add(org.joda.time.ReadablePartial,int,int[],int)
+    238:238:public long addWrapField(long,int)
+    243:280:public long getDifferenceAsLong(long,long)
+    329:329:public int getLeapAmount(long)
+    364:364:private java.lang.Object readResolve()
+org.joda.time.chrono.BasicSingleEraDateTimeField
+org.joda.time.chrono.BasicWeekOfWeekyearDateTimeField:
+    private static final long serialVersionUID
+    92:96:public int getMaximumValue(org.joda.time.ReadablePartial)
+    100:107:public int getMaximumValue(org.joda.time.ReadablePartial,int[])
+    118:118:private java.lang.Object readResolve()
+org.joda.time.chrono.BasicWeekyearDateTimeField:
+    private static final long serialVersionUID
+    private static final long WEEK_53
+    49:49:public boolean isLenient()
+    92:92:public long addWrapField(long,int)
+    96:115:public long getDifferenceAsLong(long,long)
+    216:216:public int getLeapAmount(long)
+    250:250:private java.lang.Object readResolve()
+org.joda.time.chrono.BasicYearDateTimeField:
+    private static final long serialVersionUID
+    50:50:public boolean isLenient()
+    71:78:public long addWrapField(long,int)
+    88:91:public long getDifferenceAsLong(long,long)
+    103:106:public int getLeapAmount(long)
+    144:144:private java.lang.Object readResolve()
+org.joda.time.chrono.BuddhistChronology
+org.joda.time.chrono.CopticChronology
+org.joda.time.chrono.EthiopicChronology
+org.joda.time.chrono.GJChronology
+org.joda.time.chrono.GJChronology$CutoverField
+org.joda.time.chrono.GJChronology$ImpreciseCutoverField
+org.joda.time.chrono.GJChronology$LinkedDurationField
+org.joda.time.chrono.GJDayOfWeekDateTimeField:
+    private static final long serialVersionUID
+    132:132:public int getMaximumShortTextLength(java.util.Locale)
+    139:139:private java.lang.Object readResolve()
+org.joda.time.chrono.GJEraDateTimeField:
+    private static final long serialVersionUID
+    51:51:public boolean isLenient()
+    150:150:private java.lang.Object readResolve()
+org.joda.time.chrono.GJLocaleSymbols:
+    private static final int FAST_CACHE_SIZE
+    211:211:public int getMonthMaxShortTextLength()
+    235:235:public int getDayOfWeekMaxShortTextLength()
+org.joda.time.chrono.GJMonthOfYearDateTimeField:
+    private static final long serialVersionUID
+    62:62:public int getMaximumShortTextLength(java.util.Locale)
+org.joda.time.chrono.GJYearOfEraDateTimeField:
+    private static final long serialVersionUID
+    61:61:public long addWrapField(long,int)
+    65:65:public int[] addWrapField(org.joda.time.ReadablePartial,int,int[],int)
+    69:69:public int getDifference(long,long)
+    73:73:public long getDifferenceAsLong(long,long)
+    116:116:private java.lang.Object readResolve()
+org.joda.time.chrono.GregorianChronology:
+    private static final long serialVersionUID
+    private static final long MILLIS_PER_YEAR
+    private static final long MILLIS_PER_MONTH
+    private static final int DAYS_0000_TO_1970
+    private static final int MIN_YEAR
+    private static final int MAX_YEAR
+    90:90:public static org.joda.time.chrono.GregorianChronology getInstance()
+    155:158:private java.lang.Object readResolve()
+org.joda.time.chrono.ISOChronology:
+    private static final long serialVersionUID
+    private static final int FAST_CACHE_SIZE
+    208:208:private java.lang.Object writeReplace()
+org.joda.time.chrono.ISOChronology$Stub
+org.joda.time.chrono.ISOYearOfEraDateTimeField:
+    private static final long serialVersionUID
+    63:63:public long addWrapField(long,int)
+    67:67:public int[] addWrapField(org.joda.time.ReadablePartial,int,int[],int)
+    71:71:public int getDifference(long,long)
+    75:75:public long getDifferenceAsLong(long,long)
+    110:110:private java.lang.Object readResolve()
+org.joda.time.chrono.IslamicChronology
+org.joda.time.chrono.IslamicChronology$LeapYearPatternType
+org.joda.time.chrono.JulianChronology
+org.joda.time.chrono.LenientChronology
+org.joda.time.chrono.LimitChronology
+org.joda.time.chrono.LimitChronology$LimitDateTimeField
+org.joda.time.chrono.LimitChronology$LimitDurationField
+org.joda.time.chrono.LimitChronology$LimitException
+org.joda.time.chrono.StrictChronology
+org.joda.time.chrono.ZonedChronology:
+    private static final long serialVersionUID
+    109:109:public long getDateTimeMillis(int,int,int,int)
+    118:118:public long getDateTimeMillis(int,int,int,int,int,int,int)
+    128:128:public long getDateTimeMillis(long,int,int,int,int)
+    138:144:private long localToUTC(long)
+org.joda.time.chrono.ZonedChronology$ZonedDateTimeField:
+    private static final long serialVersionUID
+    399:399:public boolean isLenient()
+    450:457:public long addWrapField(long,int)
+    482:483:public int getDifference(long,long)
+    489:490:public long getDifferenceAsLong(long,long)
+    509:510:public int getLeapAmount(long)
+    551:552:public int getMinimumValue(long)
+    556:556:public int getMinimumValue(org.joda.time.ReadablePartial)
+    560:560:public int getMinimumValue(org.joda.time.ReadablePartial,int[])
+    573:573:public int getMaximumValue(org.joda.time.ReadablePartial)
+    577:577:public int getMaximumValue(org.joda.time.ReadablePartial,int[])
+    585:585:public int getMaximumShortTextLength(java.util.Locale)
+org.joda.time.chrono.ZonedChronology$ZonedDurationField:
+    private static final long serialVersionUID
+    299:299:public int getValue(long,long)
+    303:303:public long getValueAsLong(long,long)
+    307:307:public long getMillis(int,long)
+    311:311:public long getMillis(long,long)
+    327:328:public int getDifference(long,long)
+    334:335:public long getDifferenceAsLong(long,long)
+    361:361:private long addOffset(long)
+org.joda.time.convert.AbstractConverter
+org.joda.time.convert.CalendarConverter
+org.joda.time.convert.Converter
+org.joda.time.convert.ConverterManager
+org.joda.time.convert.ConverterSet
+org.joda.time.convert.ConverterSet$Entry
+org.joda.time.convert.DateConverter
+org.joda.time.convert.DurationConverter
+org.joda.time.convert.InstantConverter
+org.joda.time.convert.IntervalConverter
+org.joda.time.convert.LongConverter
+org.joda.time.convert.NullConverter
+org.joda.time.convert.PartialConverter
+org.joda.time.convert.PeriodConverter
+org.joda.time.convert.ReadableDurationConverter
+org.joda.time.convert.ReadableInstantConverter
+org.joda.time.convert.ReadableIntervalConverter
+org.joda.time.convert.ReadablePartialConverter
+org.joda.time.convert.ReadablePeriodConverter
+org.joda.time.convert.StringConverter
+org.joda.time.field.AbstractPartialFieldProperty
+org.joda.time.field.AbstractReadableInstantFieldProperty:
+    private static final long serialVersionUID
+    136:136:public java.lang.String getAsString()
+    151:151:public java.lang.String getAsText()
+    182:182:public java.lang.String getAsShortText()
+    213:216:public int getDifference(org.joda.time.ReadableInstant)
+    230:233:public long getDifferenceAsLong(org.joda.time.ReadableInstant)
+    244:244:public org.joda.time.DurationField getDurationField()
+    254:254:public org.joda.time.DurationField getRangeDurationField()
+    264:264:public boolean isLeap()
+    274:274:public int getLeapAmount()
+    282:282:public org.joda.time.DurationField getLeapDurationField()
+    303:303:public int getMinimumValue()
+    323:323:public int getMaximumValue()
+    345:345:public int getMaximumShortTextLength(java.util.Locale)
+    356:356:public long remainder()
+    370:374:public org.joda.time.Interval toInterval()
+    391:401:public int compareTo(org.joda.time.ReadableInstant)
+    420:430:public int compareTo(org.joda.time.ReadablePartial)
+org.joda.time.field.BaseDateTimeField:
+    106:106:public final java.lang.String getAsText(long)
+    121:121:public java.lang.String getAsText(org.joda.time.ReadablePartial,int,java.util.Locale)
+    136:136:public final java.lang.String getAsText(org.joda.time.ReadablePartial,java.util.Locale)
+    180:180:public final java.lang.String getAsShortText(long)
+    195:195:public java.lang.String getAsShortText(org.joda.time.ReadablePartial,int,java.util.Locale)
+    210:210:public final java.lang.String getAsShortText(org.joda.time.ReadablePartial,java.util.Locale)
+    298:348:public int[] add(org.joda.time.ReadablePartial,int,int[],int)
+    379:433:public int[] addWrapPartial(org.joda.time.ReadablePartial,int,int[],int)
+    461:464:public long addWrapField(long,int)
+    495:498:public int[] addWrapField(org.joda.time.ReadablePartial,int,int[],int)
+    522:522:public int getDifference(long,long)
+    545:545:public long getDifferenceAsLong(long,long)
+    585:598:public int[] set(org.joda.time.ReadablePartial,int,int[],int)
+    635:635:public final long set(long,java.lang.String)
+    654:655:public int[] set(org.joda.time.ReadablePartial,int,int[],java.lang.String,java.util.Locale)
+    public abstract org.joda.time.DurationField getRangeDurationField()
+    716:716:public int getLeapAmount(long)
+    public abstract int getMinimumValue()
+    746:746:public int getMinimumValue(long)
+    758:758:public int getMinimumValue(org.joda.time.ReadablePartial)
+    772:772:public int getMinimumValue(org.joda.time.ReadablePartial,int[])
+    804:804:public int getMaximumValue(org.joda.time.ReadablePartial)
+    818:818:public int getMaximumValue(org.joda.time.ReadablePartial,int[])
+    850:850:public int getMaximumShortTextLength(java.util.Locale)
+org.joda.time.field.BaseDurationField:
+    private static final long serialVersionUID
+    79:79:public int getValue(long)
+    91:91:public long getValueAsLong(long)
+    111:111:public int getValue(long,long)
+    123:123:public long getMillis(int)
+    135:135:public long getMillis(long)
+    141:141:public int getDifference(long,long)
+org.joda.time.field.DecoratedDateTimeField:
+    private static final long serialVersionUID
+    74:74:public boolean isLenient()
+org.joda.time.field.DecoratedDurationField:
+    private static final long serialVersionUID
+    77:77:public long getValueAsLong(long,long)
+    81:81:public long getMillis(int,long)
+    85:85:public long getMillis(long,long)
+    97:97:public long getDifferenceAsLong(long,long)
+org.joda.time.field.DelegatedDateTimeField
+org.joda.time.field.DelegatedDurationField
+org.joda.time.field.DividedDateTimeField:
+    private static final long serialVersionUID
+    90:103:public DividedDateTimeField(org.joda.time.field.RemainderDateTimeField,org.joda.time.DateTimeFieldType)
+    153:153:public long addWrapField(long,int)
+    157:157:public int getDifference(long,long)
+    161:161:public long getDifferenceAsLong(long,long)
+    218:218:public int getDivisor()
+org.joda.time.field.FieldUtils:
+    36:37:private FieldUtils()
+    49:52:public static int safeNegate(int)
+    100:106:public static long safeSubtract(long,long)
+    119:123:public static int safeMultiply(int,int)
+    202:203:public static int safeMultiplyToInt(long,long)
+    235:240:public static void verifyValueBounds(org.joda.time.DateTimeFieldType,int,int,int)
+    252:257:public static void verifyValueBounds(java.lang.String,int,int,int)
+    276:276:public static int getWrappedValue(int,int,int,int)
+    292:308:public static int getWrappedValue(int,int,int)
+org.joda.time.field.ImpreciseDateTimeField:
+    private static final long serialVersionUID
+    public abstract int get(long)
+    public abstract long set(long,int)
+    91:91:public int getDifference(long,long)
+    118:133:public long getDifferenceAsLong(long,long)
+    public abstract org.joda.time.DurationField getRangeDurationField()
+    public abstract long roundFloor(long)
+    145:145:protected final long getDurationUnitMillis()
+org.joda.time.field.ImpreciseDateTimeField$LinkedDurationField:
+    private static final long serialVersionUID
+    164:164:public int getValue(long,long)
+    169:169:public long getValueAsLong(long,long)
+    174:174:public long getMillis(int,long)
+    178:178:public long getMillis(long,long)
+    190:190:public int getDifference(long,long)
+    195:195:public long getDifferenceAsLong(long,long)
+org.joda.time.field.LenientDateTimeField
+org.joda.time.field.MillisDurationField:
+    private static final long serialVersionUID
+    53:53:public java.lang.String getName()
+    85:85:public int getValue(long)
+    89:89:public long getValueAsLong(long)
+    93:93:public int getValue(long,long)
+    97:97:public long getValueAsLong(long,long)
+    101:101:public long getMillis(int)
+    105:105:public long getMillis(long)
+    109:109:public long getMillis(int,long)
+    113:113:public long getMillis(long,long)
+    125:125:public int getDifference(long,long)
+    129:129:public long getDifferenceAsLong(long,long)
+    171:171:private java.lang.Object readResolve()
+org.joda.time.field.OffsetDateTimeField:
+    private static final long serialVersionUID
+    140:140:public long addWrapField(long,int)
+    161:161:public int getLeapAmount(long)
+    216:216:public int getOffset()
+org.joda.time.field.PreciseDateTimeField:
+    private static final long serialVersionUID
+    95:99:public long addWrapField(long,int)
+    143:143:public int getRange()
+org.joda.time.field.PreciseDurationDateTimeField:
+    private static final long serialVersionUID
+    66:66:public boolean isLenient()
+org.joda.time.field.PreciseDurationField:
+    private static final long serialVersionUID
+    76:76:public long getValueAsLong(long,long)
+    88:88:public long getMillis(int,long)
+    100:100:public long getMillis(long,long)
+    114:115:public long getDifferenceAsLong(long,long)
+org.joda.time.field.RemainderDateTimeField:
+    private static final long serialVersionUID
+    118:118:public long addWrapField(long,int)
+    191:191:public int getDivisor()
+org.joda.time.field.ScaledDurationField:
+    private static final long serialVersionUID
+    55:55:public int getValue(long)
+    59:59:public long getValueAsLong(long)
+    63:63:public int getValue(long,long)
+    67:67:public long getValueAsLong(long,long)
+    71:72:public long getMillis(int)
+    76:77:public long getMillis(long)
+    81:82:public long getMillis(int,long)
+    86:87:public long getMillis(long,long)
+    101:101:public int getDifference(long,long)
+    105:105:public long getDifferenceAsLong(long,long)
+    119:119:public int getScalar()
+org.joda.time.field.SkipDateTimeField
+org.joda.time.field.SkipUndoDateTimeField
+org.joda.time.field.StrictDateTimeField
+org.joda.time.field.UnsupportedDateTimeField:
+    private static final long serialVersionUID
+    117:117:public boolean isLenient()
+    144:144:public java.lang.String getAsText(long)
+    153:153:public java.lang.String getAsText(org.joda.time.ReadablePartial,int,java.util.Locale)
+    162:162:public java.lang.String getAsText(org.joda.time.ReadablePartial,java.util.Locale)
+    189:189:public java.lang.String getAsShortText(long)
+    198:198:public java.lang.String getAsShortText(org.joda.time.ReadablePartial,int,java.util.Locale)
+    207:207:public java.lang.String getAsShortText(org.joda.time.ReadablePartial,java.util.Locale)
+    243:243:public int[] add(org.joda.time.ReadablePartial,int,int[],int)
+    252:252:public int[] addWrapPartial(org.joda.time.ReadablePartial,int,int[],int)
+    261:261:public long addWrapField(long,int)
+    270:270:public int[] addWrapField(org.joda.time.ReadablePartial,int,int[],int)
+    279:279:public int getDifference(long,long)
+    288:288:public long getDifferenceAsLong(long,long)
+    306:306:public int[] set(org.joda.time.ReadablePartial,int,int[],int)
+    324:324:public long set(long,java.lang.String)
+    333:333:public int[] set(org.joda.time.ReadablePartial,int,int[],java.lang.String,java.util.Locale)
+    370:370:public int getLeapAmount(long)
+    397:397:public int getMinimumValue(long)
+    406:406:public int getMinimumValue(org.joda.time.ReadablePartial)
+    415:415:public int getMinimumValue(org.joda.time.ReadablePartial,int[])
+    442:442:public int getMaximumValue(org.joda.time.ReadablePartial)
+    451:451:public int getMaximumValue(org.joda.time.ReadablePartial,int[])
+    469:469:public int getMaximumShortTextLength(java.util.Locale)
+    540:540:private java.lang.Object readResolve()
+org.joda.time.field.UnsupportedDurationField:
+    private static final long serialVersionUID
+    110:110:public int getValue(long)
+    119:119:public long getValueAsLong(long)
+    128:128:public int getValue(long,long)
+    137:137:public long getValueAsLong(long,long)
+    146:146:public long getMillis(int)
+    155:155:public long getMillis(long)
+    164:164:public long getMillis(int,long)
+    173:173:public long getMillis(long,long)
+    200:200:public int getDifference(long,long)
+    209:209:public long getDifferenceAsLong(long,long)
+    272:272:private java.lang.Object readResolve()
+org.joda.time.field.ZeroIsMaxDateTimeField:
+    private static final long serialVersionUID
+    68:68:public long addWrapField(long,int)
+    72:72:public int[] addWrapField(org.joda.time.ReadablePartial,int,int[],int)
+    76:76:public int getDifference(long,long)
+    80:80:public long getDifferenceAsLong(long,long)
+    97:97:public int getLeapAmount(long)
+    119:119:public int getMinimumValue(long)
+    128:128:public int getMinimumValue(org.joda.time.ReadablePartial)
+    137:137:public int getMinimumValue(org.joda.time.ReadablePartial,int[])
+    167:167:public int getMaximumValue(org.joda.time.ReadablePartial)
+    177:177:public int getMaximumValue(org.joda.time.ReadablePartial,int[])
+org.joda.time.format.DateTimeFormat:
+    static final int FULL
+    static final int LONG
+    static final int MEDIUM
+    static final int SHORT
+    static final int NONE
+    static final int DATE
+    static final int TIME
+    static final int DATETIME
+    194:194:public static org.joda.time.format.DateTimeFormatter forStyle(java.lang.String)
+    212:217:public static java.lang.String patternForStyle(java.lang.String,java.util.Locale)
+    230:230:public static org.joda.time.format.DateTimeFormatter shortDate()
+    242:242:public static org.joda.time.format.DateTimeFormatter shortTime()
+    254:254:public static org.joda.time.format.DateTimeFormatter shortDateTime()
+    267:267:public static org.joda.time.format.DateTimeFormatter mediumDate()
+    279:279:public static org.joda.time.format.DateTimeFormatter mediumTime()
+    291:291:public static org.joda.time.format.DateTimeFormatter mediumDateTime()
+    304:304:public static org.joda.time.format.DateTimeFormatter longDate()
+    316:316:public static org.joda.time.format.DateTimeFormatter longTime()
+    328:328:public static org.joda.time.format.DateTimeFormatter longDateTime()
+    341:341:public static org.joda.time.format.DateTimeFormatter fullDate()
+    353:353:public static org.joda.time.format.DateTimeFormatter fullTime()
+    365:365:public static org.joda.time.format.DateTimeFormatter fullDateTime()
+    377:378:static void appendPatternTo(org.joda.time.format.DateTimeFormatterBuilder,java.lang.String)
+    387:388:protected DateTimeFormat()
+    701:709:private static org.joda.time.format.DateTimeFormatter createFormatterForStyle(java.lang.String)
+    720:737:private static org.joda.time.format.DateTimeFormatter createFormatterForStyleIndex(int,int)
+    747:759:private static int selectStyle(char)
+org.joda.time.format.DateTimeFormat$StyleFormatter
+org.joda.time.format.DateTimeFormatter:
+    146:146:public boolean isPrinter()
+    164:164:public boolean isParser()
+    189:192:public org.joda.time.format.DateTimeFormatter withLocale(java.util.Locale)
+    203:203:public java.util.Locale getLocale()
+    222:225:public org.joda.time.format.DateTimeFormatter withOffsetParsed()
+    236:236:public boolean isOffsetParsed()
+    270:270:public org.joda.time.Chronology getChronology()
+    281:281:public org.joda.time.Chronology getChronolgy()
+    301:301:public org.joda.time.format.DateTimeFormatter withZoneUTC()
+    321:324:public org.joda.time.format.DateTimeFormatter withZone(org.joda.time.DateTimeZone)
+    334:334:public org.joda.time.DateTimeZone getZone()
+    368:371:public org.joda.time.format.DateTimeFormatter withPivotYear(java.lang.Integer)
+    405:405:public org.joda.time.format.DateTimeFormatter withPivotYear(int)
+    415:415:public java.lang.Integer getPivotYear()
+    438:438:public org.joda.time.format.DateTimeFormatter withDefaultYear(int)
+    449:449:public int getDefaultYear()
+    472:475:public void printTo(java.io.Writer,org.joda.time.ReadableInstant)
+    485:486:public void printTo(java.lang.Appendable,org.joda.time.ReadableInstant)
+    497:498:public void printTo(java.lang.StringBuffer,long)
+    508:509:public void printTo(java.io.Writer,long)
+    520:521:public void printTo(java.lang.Appendable,long)
+    534:539:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial)
+    551:556:public void printTo(java.io.Writer,org.joda.time.ReadablePartial)
+    569:570:public void printTo(java.lang.Appendable,org.joda.time.ReadablePartial)
+    598:600:public java.lang.String print(long)
+    613:615:public java.lang.String print(org.joda.time.ReadablePartial)
+    636:650:private void printTo(java.io.Writer,long,org.joda.time.Chronology)
+    699:724:public int parseInto(org.joda.time.ReadWritableInstant,java.lang.String,int)
+    770:770:public org.joda.time.LocalDate parseLocalDate(java.lang.String)
+    788:788:public org.joda.time.LocalTime parseLocalTime(java.lang.String)
+    806:826:public org.joda.time.LocalDateTime parseLocalDateTime(java.lang.String)
+    892:916:public org.joda.time.MutableDateTime parseMutableDateTime(java.lang.String)
+org.joda.time.format.DateTimeFormatterBuilder:
+    133:137:public org.joda.time.format.DateTimePrinter toPrinter()
+    153:157:public org.joda.time.format.DateTimeParser toParser()
+    168:168:public boolean canBuildFormatter()
+    178:178:public boolean canBuildPrinter()
+    188:188:public boolean canBuildParser()
+    197:199:public void clear()
+    238:239:public org.joda.time.format.DateTimeFormatterBuilder append(org.joda.time.format.DateTimePrinter)
+    257:258:public org.joda.time.format.DateTimeFormatterBuilder append(org.joda.time.format.DateTimeParser)
+    276:278:public org.joda.time.format.DateTimeFormatterBuilder append(org.joda.time.format.DateTimePrinter,org.joda.time.format.DateTimeParser)
+    305:328:public org.joda.time.format.DateTimeFormatterBuilder append(org.joda.time.format.DateTimePrinter,org.joda.time.format.DateTimeParser[])
+    345:347:public org.joda.time.format.DateTimeFormatterBuilder appendOptional(org.joda.time.format.DateTimeParser)
+    357:360:private void checkParser(org.joda.time.format.DateTimeParser)
+    368:371:private void checkPrinter(org.joda.time.format.DateTimePrinter)
+    464:470:public org.joda.time.format.DateTimeFormatterBuilder appendFixedDecimal(org.joda.time.DateTimeFieldType,int)
+    516:522:public org.joda.time.format.DateTimeFormatterBuilder appendFixedSignedDecimal(org.joda.time.DateTimeFieldType,int)
+    614:614:public org.joda.time.format.DateTimeFormatterBuilder appendFractionOfMinute(int,int)
+    631:631:public org.joda.time.format.DateTimeFormatterBuilder appendFractionOfHour(int,int)
+    648:648:public org.joda.time.format.DateTimeFormatterBuilder appendFractionOfDay(int,int)
+    665:665:public org.joda.time.format.DateTimeFormatterBuilder appendMillisOfSecond(int)
+    675:675:public org.joda.time.format.DateTimeFormatterBuilder appendMillisOfDay(int)
+    695:695:public org.joda.time.format.DateTimeFormatterBuilder appendSecondOfDay(int)
+    715:715:public org.joda.time.format.DateTimeFormatterBuilder appendMinuteOfDay(int)
+    851:851:public org.joda.time.format.DateTimeFormatterBuilder appendTwoDigitYear(int)
+    891:891:public org.joda.time.format.DateTimeFormatterBuilder appendTwoDigitWeekyear(int)
+    933:933:public org.joda.time.format.DateTimeFormatterBuilder appendYearOfCentury(int,int)
+    1031:1032:public org.joda.time.format.DateTimeFormatterBuilder appendTimeZoneName(java.util.Map)
+    1043:1043:public org.joda.time.format.DateTimeFormatterBuilder appendTimeZoneShortName()
+    1132:1133:public org.joda.time.format.DateTimeFormatterBuilder appendPattern(java.lang.String)
+    1185:1185:private boolean isFormatter(java.lang.Object)
+org.joda.time.format.DateTimeFormatterBuilder$CharacterLiteral:
+    1224:1225:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    1228:1229:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    1232:1233:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$Composite:
+    2673:2687:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    2690:2704:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    2707:2721:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$FixedNumber
+org.joda.time.format.DateTimeFormatterBuilder$Fraction:
+    1922:1923:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    1928:1934:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    1939:1941:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$MatchingParser
+org.joda.time.format.DateTimeFormatterBuilder$PaddedNumber:
+    1486:1491:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    1494:1503:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    1506:1515:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$StringLiteral:
+    1287:1288:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    1291:1292:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    1295:1296:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$TextField:
+    1777:1781:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    1785:1789:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    1793:1797:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+    1809:1817:private java.lang.String print(org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneId:
+    2565:2566:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    2570:2570:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    2574:2574:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneName:
+    static final int LONG_NAME
+    static final int SHORT_NAME
+    2495:2496:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    2513:2513:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    2517:2517:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$TimeZoneOffset:
+    2209:2263:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    2267:2267:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    2271:2271:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeFormatterBuilder$TwoDigitYear:
+    1689:1696:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    1711:1718:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    1721:1728:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+    1731:1740:private int getTwoDigitYear(org.joda.time.ReadablePartial)
+org.joda.time.format.DateTimeFormatterBuilder$UnpaddedNumber:
+    1423:1428:public void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    1431:1440:public void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    1443:1452:public void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.DateTimeParserBucket:
+    89:90:public DateTimeParserBucket(long,org.joda.time.Chronology,java.util.Locale)
+    105:106:public DateTimeParserBucket(long,org.joda.time.Chronology,java.util.Locale,java.lang.Integer)
+    171:171:public int getOffset()
+    187:189:public void setOffset(int)
+    226:227:public void setPivotYear(java.lang.Integer)
+    287:290:public java.lang.Object saveState()
+    302:308:public boolean restoreState(java.lang.Object)
+    319:319:public long computeMillis()
+    331:331:public long computeMillis(boolean)
+    56:56:static synthetic org.joda.time.DateTimeZone access$000(org.joda.time.format.DateTimeParserBucket)
+    56:56:static synthetic java.lang.Integer access$100(org.joda.time.format.DateTimeParserBucket)
+    56:56:static synthetic org.joda.time.format.DateTimeParserBucket$SavedField[] access$200(org.joda.time.format.DateTimeParserBucket)
+    56:56:static synthetic int access$300(org.joda.time.format.DateTimeParserBucket)
+    56:56:static synthetic org.joda.time.DateTimeZone access$002(org.joda.time.format.DateTimeParserBucket,org.joda.time.DateTimeZone)
+    56:56:static synthetic java.lang.Integer access$102(org.joda.time.format.DateTimeParserBucket,java.lang.Integer)
+    56:56:static synthetic org.joda.time.format.DateTimeParserBucket$SavedField[] access$202(org.joda.time.format.DateTimeParserBucket,org.joda.time.format.DateTimeParserBucket$SavedField[])
+    56:56:static synthetic boolean access$402(org.joda.time.format.DateTimeParserBucket,boolean)
+    56:56:static synthetic int access$302(org.joda.time.format.DateTimeParserBucket,int)
+org.joda.time.format.DateTimeParserBucket$SavedState
+org.joda.time.format.DateTimePrinter:
+    public abstract void printTo(java.io.Writer,long,org.joda.time.Chronology,int,org.joda.time.DateTimeZone,java.util.Locale)
+    public abstract void printTo(java.lang.StringBuffer,org.joda.time.ReadablePartial,java.util.Locale)
+    public abstract void printTo(java.io.Writer,org.joda.time.ReadablePartial,java.util.Locale)
+org.joda.time.format.FormatUtils:
+    36:37:private FormatUtils()
+    105:129:public static void appendPaddedInteger(java.lang.StringBuffer,long,int)
+    144:186:public static void writePaddedInteger(java.io.Writer,int,int)
+    201:225:public static void writePaddedInteger(java.io.Writer,long,int)
+    269:275:public static void appendUnpaddedInteger(java.lang.StringBuffer,long)
+    288:310:public static void writeUnpaddedInteger(java.io.Writer,int)
+    323:329:public static void writeUnpaddedInteger(java.io.Writer,long)
+    336:343:public static int calculateDigitCount(long)
+org.joda.time.format.ISODateTimeFormat:
+    private static org.joda.time.format.DateTimeFormatter we
+    private static org.joda.time.format.DateTimeFormatter wwe
+    private static org.joda.time.format.DateTimeFormatter dwe
+    private static org.joda.time.format.DateTimeFormatter dye
+    private static org.joda.time.format.DateTimeFormatter ym
+    private static org.joda.time.format.DateTimeFormatter ww
+    private static org.joda.time.format.DateTimeFormatter wwd
+    private static org.joda.time.format.DateTimeFormatter hm
+    private static org.joda.time.format.DateTimeFormatter hmsl
+    private static org.joda.time.format.DateTimeFormatter dh
+    private static org.joda.time.format.DateTimeFormatter dhm
+    private static org.joda.time.format.DateTimeFormatter dhms
+    private static org.joda.time.format.DateTimeFormatter dhmsl
+    private static org.joda.time.format.DateTimeFormatter dhmsf
+    private static org.joda.time.format.DateTimeFormatter wdt
+    private static org.joda.time.format.DateTimeFormatter wdtx
+    private static org.joda.time.format.DateTimeFormatter od
+    private static org.joda.time.format.DateTimeFormatter odt
+    private static org.joda.time.format.DateTimeFormatter odtx
+    private static org.joda.time.format.DateTimeFormatter bd
+    private static org.joda.time.format.DateTimeFormatter bt
+    private static org.joda.time.format.DateTimeFormatter btx
+    private static org.joda.time.format.DateTimeFormatter btt
+    private static org.joda.time.format.DateTimeFormatter bttx
+    private static org.joda.time.format.DateTimeFormatter bdt
+    private static org.joda.time.format.DateTimeFormatter bdtx
+    private static org.joda.time.format.DateTimeFormatter bod
+    private static org.joda.time.format.DateTimeFormatter bodt
+    private static org.joda.time.format.DateTimeFormatter bodtx
+    private static org.joda.time.format.DateTimeFormatter bwd
+    private static org.joda.time.format.DateTimeFormatter bwdt
+    private static org.joda.time.format.DateTimeFormatter bwdtx
+    private static org.joda.time.format.DateTimeFormatter dpe
+    private static org.joda.time.format.DateTimeFormatter tpe
+    private static org.joda.time.format.DateTimeFormatter dp
+    private static org.joda.time.format.DateTimeFormatter ldp
+    private static org.joda.time.format.DateTimeFormatter tp
+    private static org.joda.time.format.DateTimeFormatter ltp
+    private static org.joda.time.format.DateTimeFormatter dtp
+    private static org.joda.time.format.DateTimeFormatter dotp
+    private static org.joda.time.format.DateTimeFormatter ldotp
+    145:146:protected ISODateTimeFormat()
+    230:272:public static org.joda.time.format.DateTimeFormatter forFields(java.util.Collection,boolean,boolean)
+    293:341:private static boolean dateByMonth(org.joda.time.format.DateTimeFormatterBuilder,java.util.Collection,boolean,boolean)
+    361:378:private static boolean dateByOrdinal(org.joda.time.format.DateTimeFormatterBuilder,java.util.Collection,boolean,boolean)
+    398:446:private static boolean dateByWeek(org.joda.time.format.DateTimeFormatterBuilder,java.util.Collection,boolean,boolean)
+    470:524:private static void time(org.joda.time.format.DateTimeFormatterBuilder,java.util.Collection,boolean,boolean,boolean,boolean)
+    535:538:private static void checkNotStrictISO(java.util.Collection,boolean)
+    549:552:private static void appendSeparator(org.joda.time.format.DateTimeFormatterBuilder,boolean)
+    569:578:public static org.joda.time.format.DateTimeFormatter dateParser()
+    595:598:public static org.joda.time.format.DateTimeFormatter localDateParser()
+    613:636:public static org.joda.time.format.DateTimeFormatter dateElementParser()
+    654:661:public static org.joda.time.format.DateTimeFormatter timeParser()
+    680:686:public static org.joda.time.format.DateTimeFormatter localTimeParser()
+    702:751:public static org.joda.time.format.DateTimeFormatter timeElementParser()
+    775:787:public static org.joda.time.format.DateTimeFormatter dateTimeParser()
+    810:821:public static org.joda.time.format.DateTimeFormatter dateOptionalTimeParser()
+    845:855:public static org.joda.time.format.DateTimeFormatter localDateOptionalTimeParser()
+    988:994:public static org.joda.time.format.DateTimeFormatter ordinalDate()
+    1007:1013:public static org.joda.time.format.DateTimeFormatter ordinalDateTime()
+    1026:1032:public static org.joda.time.format.DateTimeFormatter ordinalDateTimeNoMillis()
+    1042:1042:public static org.joda.time.format.DateTimeFormatter weekDate()
+    1054:1060:public static org.joda.time.format.DateTimeFormatter weekDateTime()
+    1072:1078:public static org.joda.time.format.DateTimeFormatter weekDateTimeNoMillis()
+    1089:1096:public static org.joda.time.format.DateTimeFormatter basicDate()
+    1109:1119:public static org.joda.time.format.DateTimeFormatter basicTime()
+    1131:1139:public static org.joda.time.format.DateTimeFormatter basicTimeNoMillis()
+    1152:1158:public static org.joda.time.format.DateTimeFormatter basicTTime()
+    1171:1177:public static org.joda.time.format.DateTimeFormatter basicTTimeNoMillis()
+    1189:1195:public static org.joda.time.format.DateTimeFormatter basicDateTime()
+    1207:1213:public static org.joda.time.format.DateTimeFormatter basicDateTimeNoMillis()
+    1224:1230:public static org.joda.time.format.DateTimeFormatter basicOrdinalDate()
+    1243:1249:public static org.joda.time.format.DateTimeFormatter basicOrdinalDateTime()
+    1262:1268:public static org.joda.time.format.DateTimeFormatter basicOrdinalDateTimeNoMillis()
+    1278:1286:public static org.joda.time.format.DateTimeFormatter basicWeekDate()
+    1298:1304:public static org.joda.time.format.DateTimeFormatter basicWeekDateTime()
+    1316:1322:public static org.joda.time.format.DateTimeFormatter basicWeekDateTimeNoMillis()
+    1332:1332:public static org.joda.time.format.DateTimeFormatter year()
+    1342:1348:public static org.joda.time.format.DateTimeFormatter yearMonth()
+    1374:1374:public static org.joda.time.format.DateTimeFormatter weekyear()
+    1384:1390:public static org.joda.time.format.DateTimeFormatter weekyearWeek()
+    1400:1407:public static org.joda.time.format.DateTimeFormatter weekyearWeekDay()
+    1416:1416:public static org.joda.time.format.DateTimeFormatter hour()
+    1426:1432:public static org.joda.time.format.DateTimeFormatter hourMinute()
+    1461:1470:public static org.joda.time.format.DateTimeFormatter hourMinuteSecondMillis()
+    1500:1507:public static org.joda.time.format.DateTimeFormatter dateHour()
+    1517:1524:public static org.joda.time.format.DateTimeFormatter dateHourMinute()
+    1535:1542:public static org.joda.time.format.DateTimeFormatter dateHourMinuteSecond()
+    1554:1561:public static org.joda.time.format.DateTimeFormatter dateHourMinuteSecondMillis()
+    1573:1580:public static org.joda.time.format.DateTimeFormatter dateHourMinuteSecondFraction()
+    1614:1619:private static org.joda.time.format.DateTimeFormatter weekyearElement()
+    1623:1629:private static org.joda.time.format.DateTimeFormatter weekElement()
+    1633:1639:private static org.joda.time.format.DateTimeFormatter dayOfWeekElement()
+    1643:1649:private static org.joda.time.format.DateTimeFormatter dayOfYearElement()
+org.joda.time.format.ISOPeriodFormat
+org.joda.time.format.PeriodFormat
+org.joda.time.format.PeriodFormatter
+org.joda.time.format.PeriodFormatterBuilder
+org.joda.time.format.PeriodFormatterBuilder$Composite
+org.joda.time.format.PeriodFormatterBuilder$CompositeAffix
+org.joda.time.format.PeriodFormatterBuilder$FieldFormatter
+org.joda.time.format.PeriodFormatterBuilder$Literal
+org.joda.time.format.PeriodFormatterBuilder$PeriodFieldAffix
+org.joda.time.format.PeriodFormatterBuilder$PluralAffix
+org.joda.time.format.PeriodFormatterBuilder$Separator
+org.joda.time.format.PeriodFormatterBuilder$SimpleAffix
+org.joda.time.format.PeriodParser
+org.joda.time.format.PeriodPrinter
+org.joda.time.tz.CachedDateTimeZone:
+    private static final long serialVersionUID
+    95:95:public org.joda.time.DateTimeZone getUncachedZone()
+    107:107:public int getStandardOffset(long)
+org.joda.time.tz.CachedDateTimeZone$Info:
+    206:212:public int getStandardOffset(long)
+org.joda.time.tz.DateTimeZoneBuilder:
+    private final java.util.ArrayList iRuleSets
+    140:177:static void writeMillis(java.io.DataOutput,long)
+    215:219:private static org.joda.time.DateTimeZone buildFixedZone(java.lang.String,java.lang.String,int,int)
+    225:227:public DateTimeZoneBuilder()
+    252:259:public org.joda.time.tz.DateTimeZoneBuilder addCutover(int,char,int,int,int,boolean,int)
+    268:269:public org.joda.time.tz.DateTimeZoneBuilder setStandardOffset(int)
+    276:277:public org.joda.time.tz.DateTimeZoneBuilder setFixedSavings(java.lang.String,int)
+    309:316:public org.joda.time.tz.DateTimeZoneBuilder addRecurringSavings(java.lang.String,int,int,int,char,int,int,int,boolean,int)
+    320:323:private org.joda.time.tz.DateTimeZoneBuilder$RuleSet getLastRuleSet()
+    333:400:public org.joda.time.DateTimeZone toDateTimeZone(java.lang.String,boolean)
+    404:432:private boolean addTransition(java.util.ArrayList,org.joda.time.tz.DateTimeZoneBuilder$Transition)
+    443:448:public void writeTo(java.lang.String,java.io.OutputStream)
+    459:475:public void writeTo(java.lang.String,java.io.DataOutput)
+org.joda.time.tz.DateTimeZoneBuilder$DSTZone:
+    private static final long serialVersionUID
+    1191:1191:public int getStandardOffset(long)
+    1298:1301:public void writeTo(java.io.DataOutput)
+org.joda.time.tz.DateTimeZoneBuilder$OfYear:
+    522:541:public long setInstant(int,int,int)
+    659:665:public void writeTo(java.io.DataOutput)
+org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:
+    private static final long serialVersionUID
+    1389:1480:static org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone create(java.lang.String,boolean,java.util.ArrayList,org.joda.time.tz.DateTimeZoneBuilder$DSTZone)
+    1547:1562:public int getStandardOffset(long)
+    1638:1687:public void writeTo(java.io.DataOutput)
+    1690:1725:public boolean isCachable()
+org.joda.time.tz.DateTimeZoneBuilder$Recurrence:
+    754:754:public org.joda.time.tz.DateTimeZoneBuilder$OfYear getOfYear()
+    794:797:public void writeTo(java.io.DataOutput)
+    800:800:org.joda.time.tz.DateTimeZoneBuilder$Recurrence rename(java.lang.String)
+    804:804:org.joda.time.tz.DateTimeZoneBuilder$Recurrence renameAppend(java.lang.String)
+org.joda.time.tz.DateTimeZoneBuilder$Rule
+org.joda.time.tz.DateTimeZoneBuilder$RuleSet
+org.joda.time.tz.DateTimeZoneBuilder$Transition
+org.joda.time.tz.FixedDateTimeZone:
+    private static final long serialVersionUID
+    53:53:public int getStandardOffset(long)
+    77:84:public java.util.TimeZone toTimeZone()
+org.joda.time.tz.ZoneInfoCompiler
+org.joda.time.tz.ZoneInfoCompiler$DateTimeOfYear
+org.joda.time.tz.ZoneInfoCompiler$Rule
+org.joda.time.tz.ZoneInfoCompiler$RuleSet
+org.joda.time.tz.ZoneInfoCompiler$Zone
+org.joda.time.tz.ZoneInfoProvider:
+    56:72:public ZoneInfoProvider(java.io.File)
+    96:97:public ZoneInfoProvider(java.lang.String,java.lang.ClassLoader)

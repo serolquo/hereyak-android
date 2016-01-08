@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hereYAK</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_show_locked_position">Show Locked Position</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_logout">Logout</string>
+    <string name="message_box">Enter a message...</string>
+    <string name="send_message_button">Send</string>
+    <string name="error_server">YAK has trouble communicating with the server. Please try again later.</string>
+    <string name="loading_messages">Retrieving YAKs...</string>
+    <string name="refresh_button_description">Reload YAKs</string>
+    <string name="gps_required_dialog_title">Location Service Required</string>
+    <string name="gps_required_dialog_message">Please enable GPS and mobile network location service on your device.</string>
+    <string name="gps_error_dialog_title">Error Retrieving Location</string>
+    <string name="gps_error_dialog_message">hereYAK will terminate because it cannot determine your location.</string>
+    <string name="ok">Okay</string>
+    <string name="message_too_short">YAK is too short. It needs to be longer than 2 characters.</string>
+    <string name="message_too_long">YAK is too long. It needs to be 256 characters or less.</string>
+    <string name="message_invalid">YAK is invalid</string>
+    <string name="message_sent">YAK sent</string>
+    <string name="action_send_key">Send</string>
+    <string name="new_location_lock">New location detected. Retrieving YAKs for new location.</string>
+    <string name="near">Near</string>
+    <string name="me">me</string>
+    <string name="title_activity_yak_map">YAK Location</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="detecting_location">Detecting location. Please try again when your location is locked.</string>
+    <string name="locked_location">This is your locked location</string>
+    <string name="action_lock_location">Lock to Current Location</string>
+    <string name="cannot_get_current_location">Cannot retrieve your current location.</string>
+    <string name="current_location_too_close">Cannot lock to current location. It is too close to your existing location.</string>
+    <string name="current_location_locked">Your current location is successfully locked.</string>
+    <string name="message_sent_failed">failed to send</string>
+    <string name="menu_legalnotices">Legal Notices</string>
+
+</resources>

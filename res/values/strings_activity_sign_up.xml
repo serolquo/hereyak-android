@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="title_activity_sign_up">Register</string>
+
+    <!-- Strings related to sign_up -->
+    <string name="prompt_username">Username</string>
+    <string name="action_sign_up">Register</string>
+    <string name="sign_up_progress_signing_in">Registering&#8230;</string>
+    <string name="error_sign_up_invalid_email">This email address is invalid</string>
+    <string name="error_sign_up_invalid_password">This password is invalid</string>
+    <string name="error_sign_up_short_password">This password is too short</string>
+    <string name="error_sign_up_invalid_username">This username is invalid</string>
+    <string name="error_sign_up_username_too_short">This username is too short</string>
+    <string name="error_sign_up_username">This username can only contain letters and numbers</string>
+    <string name="error_sign_up_field_required">This field is required</string>
+    <string name="sign_in_text">Login to an existing account</string>
+    <string name="error_sign_up_email_taken">This email address is taken</string>
+    <string name="error_sign_up_username_taken">This username is taken</string>
+    <string name="error_sign_up">Registration cannot be completed. Please try again later.</string>
+
+</resources>
